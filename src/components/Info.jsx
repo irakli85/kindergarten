@@ -18,14 +18,14 @@ function Info() {
                 <div className='info-yellowBG'>
                     <img src={clock} alt="clock"/>
                 </div>
-                <p>Часы работы:<span>с 7:00 до 19:00</span></p>
+                <p>Часы работы: <span>с 7:00 до 19:00</span></p>
             </div>
 
             <div className="info-item">
                 <div className='info-blueBG'>
                     <img src={camera} alt="camera"/>
                 </div>
-                <p>Видеонаблюдение:<span>онлайн</span></p>
+                <p>Видеонаблюдение: <span>онлайн</span></p>
             </div>
 
             <div className="info-item">
@@ -39,14 +39,14 @@ function Info() {
                 <div className='info-pinkBG'>
                     <img src={face} alt="face"/>
                 </div>
-                <p>Группы:<span>до 15 человек</span></p>
+                <p>Группы: <span>до 15 человек</span></p>
             </div>
 
             <div className="info-item">
                 <div className='info-yellowBG'>
                     <img src={chat} alt="chat"/>
                 </div>
-                <p>Англоязычная среда:<span> билингвал / экспат</span></p>
+                <p>Англоязычная среда: <span> билингвал / экспат</span></p>
             </div>
 
             <div className="info-item">
