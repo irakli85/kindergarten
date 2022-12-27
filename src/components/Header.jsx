@@ -22,7 +22,7 @@ function Header() {
             </nav>
             <div class="header-contact">
                 <img src={phone} alt="phone"/>
-                <span>+7 495 123 34 25"</span>
+                <span>+995 123 456 789</span>
             </div>
             <div class="header-social">
                 <img src={whatsapp} alt="whatsapp"/>
