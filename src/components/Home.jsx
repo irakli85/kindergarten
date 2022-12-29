@@ -3,6 +3,7 @@ import Header from './Header'
 import Main from './Main'
 import Info from './Info'
 import Consultation from './Consultation'
+import Services from './Services'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Main/>
         <Info/>
         <Consultation/>
+        <Services/>
     </>
   )
 }
