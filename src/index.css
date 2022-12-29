@@ -45,8 +45,8 @@ header{
 }
 
 .header-img img{
-    width: 130px;
-    height: 50px;
+    width: 230px;
+    height: 100px;
 }
 
 header nav{
@@ -266,6 +266,14 @@ main{
     font-weight: 400;
 }
 
+.image-wrapper{
+    width: 76px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .info-yellowBG,
 .info-blueBG,
 .info-pinkBG{
@@ -292,36 +300,41 @@ main{
 /* SECTION CONSULTATION */
 
 .consultation{
-    /* outline: solid red; */
-    height: 534px;
+    margin-top: 116px;
+    height: 385px;
     width: 100%;
-    background-image: url('./assets/homePage/questionBG.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top -150px left 0;
-    padding-left: 10%;    
+    background-color: var(--btnBg);
+    border-radius: 20px;
+    padding-left: 10%;
+    position: relative;    
 }
 
 .consultation h3{
-    margin-top: 150px;
+    position: relative;
+    margin-top: 48px;
     max-width: 589px;
     font-weight: 700;
     font-size: 40px;
     line-height: 49px;
     color: var(--white);
+    z-index: 3;
 }
 
 .consultation p{
+    position: relative;
     max-width: 442px;
     margin-top: 27px;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     color: var(--white);
+    z-index: 3;
 }
 
 .consultation form{
+    position: relative;
     margin-top: 31px;
+    z-index: 3;
 }
 
 .consultation-input input{
@@ -385,4 +398,22 @@ main{
     color: var(--white);
     margin-left: 13px;
     max-width: 171px;
+    z-index: 2;
+}
+
+.consultation-ornament,
+.consultation-boy{
+    position: absolute;
+}
+
+.consultation-ornament{
+    top: -250px;
+    right: 0;
+    z-index: 1;
+}
+
+.consultation-boy{
+    top: -63px;
+    right: 262px;
+    z-index: 2;
 }

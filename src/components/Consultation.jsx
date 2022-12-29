@@ -1,4 +1,6 @@
 import React from 'react'
+import ornament from '../assets/homePage/ornament1.png'
+import boy from '../assets/homePage/boy1.png'
 
 function Consultation() {
   return (
@@ -21,6 +23,8 @@ function Consultation() {
                         пользовательского соглашения</label>
                 </div>
             </form>
+            <img className='consultation-ornament' src={ornament} alt='ornament'/>
+            <img className='consultation-boy' src={boy} alt='ornament'/>
         </section>
     </>
   )
