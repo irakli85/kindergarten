@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/taati/static/css/main.20ca4f0b.css",
-    "main.js": "/taati/static/js/main.72e4c0fc.js",
+    "main.js": "/taati/static/js/main.c29e6a51.js",
     "static/media/video.mp4": "/taati/static/media/video.4e510891b2e52c75eada.mp4",
     "static/media/bg.png": "/taati/static/media/bg.2a12642d47d357be7a1b.png",
     "static/media/boy1.png": "/taati/static/media/boy1.b12d2b668d037b527141.png",
@@ -12,10 +12,10 @@
     "static/media/Taati.png": "/taati/static/media/Taati.7e292c44d66ab8d05d1f.png",
     "index.html": "/taati/index.html",
     "main.20ca4f0b.css.map": "/taati/static/css/main.20ca4f0b.css.map",
-    "main.72e4c0fc.js.map": "/taati/static/js/main.72e4c0fc.js.map"
+    "main.c29e6a51.js.map": "/taati/static/js/main.c29e6a51.js.map"
   },
   "entrypoints": [
     "static/css/main.20ca4f0b.css",
-    "static/js/main.72e4c0fc.js"
+    "static/js/main.c29e6a51.js"
   ]
 }
