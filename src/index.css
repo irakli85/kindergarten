@@ -476,3 +476,40 @@ main{
     color: var(--textBlue);
     margin-left: 20px;
 }
+
+/* SECTION VIDEOTEKA */
+
+.videoteka{
+    margin-top: 91px;
+}
+
+.videoteka h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--btnBg)
+}
+
+.videoteka p{
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--textBlue)
+}
+
+.videoteka div{
+    margin-top: 72px;
+    display: flex;
+    gap: 20px;    
+}
+
+video{
+   width: 453px;
+   height: 260px;
+   border-radius: 20px;
+}
+
+
+
+
+
