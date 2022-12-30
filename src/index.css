@@ -506,10 +506,12 @@ main{
 }
 
 video{
-   width: 453px;
+   max-width: 453px;
    height: 260px;
    border-radius: 20px;
 }
+
+
 
 
 
