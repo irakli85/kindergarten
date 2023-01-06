@@ -8,8 +8,8 @@ function Main() {
         <main>
             <div className="main-info">
                 <h1>Taati</h1>
-                <p>Английский детский 
-                    сад и клуб</p>
+                <p>детский 
+                    сад</p>
                 <div class="main-arrows">
                     <div>
                         <img src={arrowLeft} alt="arrow left"/>
