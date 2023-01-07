@@ -6,6 +6,7 @@ import Consultation from './Consultation'
 import Services from './Services'
 import Videoteka from './Videoteka'
 import Advantages from './Advantages'
+import Staff from './Staff'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <Services/>
         <Videoteka/>
         <Advantages/>
+        <Staff/>
     </>
   )
 }
