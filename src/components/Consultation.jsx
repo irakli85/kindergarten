@@ -19,7 +19,7 @@ function Consultation() {
                     <div>
                         <input type="checkbox" name="terms" id="terms"/>
                     </div>
-                    <label for="terms">Я принимаю условия 
+                    <label htmlFor="terms">Я принимаю условия 
                         пользовательского соглашения</label>
                 </div>
             </form>

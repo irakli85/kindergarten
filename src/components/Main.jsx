@@ -10,7 +10,7 @@ function Main() {
                 <h1>Taati</h1>
                 <p>детский 
                     сад</p>
-                <div class="main-arrows">
+                <div className="main-arrows">
                     <div>
                         <img src={arrowLeft} alt="arrow left"/>
                     </div>
@@ -35,7 +35,7 @@ function Main() {
                         <div className='checkbox-wrap'>
                             <input type="checkbox" name="remember" id="remember"/>
                          </div>   
-                        <label for="remember">Я принимаю условия 
+                        <label htmlFor="remember">Я принимаю условия 
                             пользовательского соглашения</label>
                     </div>
                     <button type="submit">записаться</button>                

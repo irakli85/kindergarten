@@ -9,7 +9,7 @@ function Header() {
   return (
     <>        
         <header>
-            <div class="header-img">
+            <div className="header-img">
                 <img src={logo} alt="logo"/>
             </div>
             <nav>
@@ -20,11 +20,11 @@ function Header() {
                 <a href="/">Команда</a>
                 <a href="/">Контакты</a>
             </nav>
-            <div class="header-contact">
+            <div className="header-contact">
                 <img src={phone} alt="phone"/>
                 <span>+995 123 456 789</span>
             </div>
-            <div class="header-social">
+            <div className="header-social">
                 <img src={whatsapp} alt="whatsapp"/>
                 <img src={telegram} alt="telegram"/>
             </div>

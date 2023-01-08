@@ -9,6 +9,7 @@
     --pinkBG: #FFF6D1;
     --yellow: #F6B31F;
     --yellowBG: #FDDC4E;
+    --lightBlueBG: #F2F2FF;
 }
 
 *{
@@ -686,6 +687,48 @@ video{
     color: var(--textBlue);
 }
 
+/* SECTION FEEDBACK */
 
+.feedback{
+    margin-top: 99px;
+    height: 569px;
+    background: var(--lightBlueBG);
+    border-radius: 20px;
+}
+
+.feedback h3{
+    margin-top: 68px;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--textBlue);
+}
+
+.feedback-container{
+    display: flex;
+    margin-top: 40px;
+    gap: 35px;
+}
+
+.feedback-arrow{
+    width: 60px;
+    height: 60px;
+    border: solid 1px var(--btnBg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.feedback-info{
+    display: flex;
+    gap: 40px;
+}
+
+.feedback-info-items-mainbox{
+    width: 594px;
+    height: 247px;
+    background: var(--white);
+    border-radius: 20px;
+}
 
 

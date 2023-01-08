@@ -3,7 +3,7 @@ import React from 'react'
 function Aboutus() {
   return (
     <>
-      <section class="aboutus">
+      <section className="aboutus">
           <h3>О нашем центре</h3>
           <p className='aboutus-text1'>Мы создали пространство, в котором каждый ребёнок проявляет и раскрывает себя, развивает индивидуальные особенности и таланты.
           </p>
