@@ -707,6 +707,7 @@ video{
     display: flex;
     margin-top: 40px;
     gap: 35px;
+    align-items: center;
 }
 
 .feedback-arrow{
@@ -729,6 +730,58 @@ video{
     height: 247px;
     background: var(--white);
     border-radius: 20px;
+    padding: 35px;
 }
 
+.feedback-user{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
 
+.feedback-user-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.feedback-info-items-mainbox p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--textBlue);
+    margin-top: 21px;
+}
+
+.user-info-name{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--textBlue);
+}
+
+.user-info-city{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--textBlue);
+}
+
+.feedback-read{
+    margin-left: 35px;
+    margin-top: 21px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textBlue);
+}
+
+/* SECTION PLACEMAP */
+
+.placemap{
+    margin-top: 60px;
+    position: relative;
+}
+
+.placemap-pointer{
+    position: absolute;
+    top: 164px;
+    left: 865px;
+}

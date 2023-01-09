@@ -18,13 +18,15 @@ function Feedback() {
                           <div>
                               <img src={user} alt="user"/>
                           </div>
-                          <span>Дмитрий</span>
-                          <span>Москва</span>
+                          <div className='feedback-user-info'>
+                            <span className='user-info-name'>Дмитрий</span>
+                            <span className='user-info-city'>Москва</span>
+                          </div>
                       </div>
                       <p>Водим двоих детей, очень довольны уровнем и качеством образования, если нужен просто детский сад, то вам не сюда. Дети знают английский (произношение, грамматика и пр.)
                       </p>
                   </div>
-                  <p>Прочитать отзыв</p>
+                  <p className='feedback-read'>Прочитать отзыв</p>
               </div>
 
               <div className='feedback-info-items'>
@@ -33,13 +35,15 @@ function Feedback() {
                           <div>
                               <img src={user} alt="user"/>
                           </div>
-                          <span>Дмитрий</span>
-                          <span>Москва</span>
+                          <div className='feedback-user-info'>
+                            <span className='user-info-name'>Дмитрий</span>
+                            <span className='user-info-city'>Москва</span>
+                          </div>
                       </div>
                       <p>Водим двоих детей, очень довольны уровнем и качеством образования, если нужен просто детский сад, то вам не сюда. Дети знают английский (произношение, грамматика и пр.)
                       </p>
                   </div>
-                  <p>Прочитать отзыв</p>
+                  <p className='feedback-read'>Прочитать отзыв</p>
               </div>
           </div>
           <div className='feedback-arrow'>

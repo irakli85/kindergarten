@@ -9,6 +9,7 @@ import Advantages from './Advantages'
 import Staff from './Staff'
 import Aboutus from './Aboutus'
 import Feedback from './Feedback'
+import Placemap from './Placemap'
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <Staff/>
         <Aboutus/>
         <Feedback/>
+        <Placemap/>
     </>
   )
 }
