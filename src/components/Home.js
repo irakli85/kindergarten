@@ -10,6 +10,7 @@ import Staff from './Staff'
 import Aboutus from './Aboutus'
 import Feedback from './Feedback'
 import Placemap from './Placemap'
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
         <Aboutus/>
         <Feedback/>
         <Placemap/>
+        <Footer/>
     </>
   )
 }

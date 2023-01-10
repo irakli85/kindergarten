@@ -3,6 +3,7 @@
 :root{
     --textBlue: #334155;
     --btnBg: #8081BD;
+    --lightBlue: #0E95D3;
     --white: #ffffff;
     --red: #EA5D4A;
     --pnk: #F3ACC8;
@@ -785,3 +786,95 @@ video{
     top: 164px;
     left: 865px;
 }
+
+/* FOOTER */
+
+footer{
+    margin-top: 67px;
+}
+
+.footer-main{
+    display: flex;
+    gap: 105px;
+    margin-bottom: 54px;
+}
+
+.footer-phone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-phone p{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--textBlue);
+}
+
+.footer-info-mail{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textBlue);
+    margin-left: 30px;
+}
+
+.footer-info-city{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--textBlue);
+}
+
+.footer-info-adress{
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--textBlue);
+}
+
+.footer-info-adress span{
+    color: var(--lightBlue);
+}
+
+.footer-socials{
+    margin-top: 39px;
+    display: flex;
+    gap: 25px;
+}
+
+.footer-copyright{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 96px;
+}
+
+.footer-nav-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-items h3{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--textBlue);
+}
+
+.footer-nav-links{    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-nav-links a{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--textBlue);
+}
+
+
