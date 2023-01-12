@@ -9,8 +9,8 @@ function Videoteka() {
   return (
     <>
         <section className="videoteka">
-            <h2>Видеогалерея нашего сада</h2>
-            <p>Вы можете ознакомиться как проходят наши будни</p>
+            <h2>ჩვენი ბაღის ვიდეო-გალერეა</h2>
+            <p>თქვენ შეგიძლიათ ნახოთ ბაღის ყოველდღიური გარემო</p>
             <div>               
                 <video src={video} poster={poster1} controls></video>
                 <video src={video} poster={poster2} controls></video>

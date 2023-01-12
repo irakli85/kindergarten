@@ -21,7 +21,7 @@ function Footer() {
                         <p>+995 123 456 789</p>
                     </div>
                     <p className='footer-info-mail'>expample@taati.ge</p>
-                    <p className='footer-info-city'>Москва, ул. Муравская д.38, к.1</p>
+                    <p className='footer-info-city'>ბათუმი, ვ. გორგასალის ქ. 149<sup>ა</sup></p>
                     <p className='footer-info-adress'>ЖК Мир Митино <span>М. Пятницкое шоссе</span></p>
                     <div className='footer-socials'>
                         <img src={telegram} alt="telegram"/>
@@ -32,40 +32,39 @@ function Footer() {
 
                 <div className='footer-nav'>
                     <div className='footer-nav-items'>
-                        <h3>О нас</h3>
+                        <h3>ჩვენს შესახებ</h3>
                         <div className='footer-nav-links'>
-                            <a href="/">О нас</a>
-                            <a href="/">Документы</a>
-                            <a href="/">Родителям</a>
-                            <a href="/">Питание</a>
-                            <a href="/">Новости</a>
-                            <a href="/">3D тур</a>
-                            <a href="/">Отзывы</a>
+                            <a href="/">ჩვენს შესახებ</a>
+                            <a href="/">დოკუმენტები</a>
+                            <a href="/">მშობლებისთვის</a>
+                            <a href="/">კვება</a>
+                            <a href="/">სიახლეები</a>
+                            <a href="/">გამოხმაურება</a>
                         </div>
                     </div>
                     <div className='footer-nav-items'>
-                        <h3>Расписание</h3>
+                        <h3>სასწავლო განრიგი</h3>
                         <div className='footer-nav-links'>
-                            <a href="/">Расписание основное</a>
-                            <a href="/">Дополнительные услуги</a>
+                            <a href="/">ძირითადი განრიგი</a>
+                            <a href="/">დამატებითი სერვისი</a>
                         </div>
                     </div>
                     <div className='footer-nav-items'>
-                        <h3>Программа</h3>
+                        <h3>პროგრამა</h3>
                         <div className='footer-nav-links'>
-                            <a href="/">Группа (2-3 года)</a>
-                            <a href="/">Группа (3-5 лет)</a>
-                            <a href="/">Группа (5-7 лет)</a>
+                            <a href="/">ჯგუფი (2-3 წელი)</a>
+                            <a href="/">ჯგუფი (3-5 წელი)</a>
+                            <a href="/">ჯგუფი (5-7 წელი)</a>
                         </div>
                     </div>
                     <div className='footer-nav-items'>
-                        <h3>Фото и видео</h3>
+                        <h3>ფოტო და ვიდეო</h3>
                     </div>
                     <div className='footer-nav-items'>
-                        <h3>Команда</h3>
+                        <h3>ჩვენი გუნდი</h3>
                     </div>
                     <div className='footer-nav-items'>
-                        <h3>Контакты</h3>
+                        <h3>კონტაქტი</h3>
                     </div>
                 </div>
             </div>

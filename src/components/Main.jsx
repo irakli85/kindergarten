@@ -8,8 +8,7 @@ function Main() {
         <main>
             <div className="main-info">
                 <h1>Taati</h1>
-                <p>детский 
-                    сад</p>
+                <p>საბავშვო ბაღი</p>
                 <div className="main-arrows">
                     <div>
                         <img src={arrowLeft} alt="arrow left"/>
@@ -20,25 +19,20 @@ function Main() {
                 </div>
             </div>
             <form action="" className="main-form">                
-                    <h2>Запишитесь
-                        на персональную
-                        экскурсию</h2>
-                    <p>Заполните форму и посмотрите 
-                        детский сад вживую в удобное для 
-                        вас время</p>
+                    <h2>ჩაეწერეთ პერსონალურ ექსკურსიაზე</h2>
+                    <p>შეავსეთ ფორმა და დაათვალიერეთ ბაღი თქვენთვის სასურველ დროს</p>
                     <div className='main-form-input'>
-                        <input type="text" name="" id="" placeholder="Ваше имя"/>
+                        <input type="text" name="" id="" placeholder="თქვენი სახელი"/>
                         <input type="number" name="" id="" placeholder="+ 995 _  _  _  -  _  _  _  -  _  _  _"/>
-                        <input type="email" name="" id="" placeholder="Ваш e-mail"/>
+                        <input type="email" name="" id="" placeholder="თქვენი e-mail"/>
                     </div>
                     <div className='main-form-checkbox'>
                         <div className='checkbox-wrap'>
                             <input type="checkbox" name="remember" id="remember"/>
                          </div>   
-                        <label htmlFor="remember">Я принимаю условия 
-                            пользовательского соглашения</label>
+                        <label htmlFor="remember">ვეთანხმები მომხმარებელთა უსაფრთხოების პირობებს</label>
                     </div>
-                    <button type="submit">записаться</button>                
+                    <button type="submit">ჩაწერა</button>                
             </form>
         </main>
     </>

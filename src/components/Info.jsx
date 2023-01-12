@@ -20,7 +20,7 @@ function Info() {
                         <img src={clock} alt="clock"/>
                     </div>    
                 </div>
-                <p>Часы работы: <span>с 7:00 до 19:00</span></p>
+                <p>მუშაობის საათები: <span>7:00-დან 19:00-მდე</span></p>
             </div>
 
             <div className="info-item">
@@ -29,7 +29,7 @@ function Info() {
                         <img src={camera} alt="camera"/>
                     </div>    
                 </div>
-                <p>Видеонаблюдение: <span>онлайн</span></p>
+                <p>ვიდეო-კამერები: <span>online</span></p>
             </div>
 
             <div className="info-item">
@@ -38,7 +38,7 @@ function Info() {
                         <img src={scope} alt="scope"/>
                     </div>    
                 </div>
-                <p>Утренний фильтр медработником: <span>ежедневно</span></p>
+                <p>დილის ფილტრი მედპერსონალის მიერ: <span>ყოველდღიური</span></p>
             </div>
 
             <div className="info-item">
@@ -47,7 +47,7 @@ function Info() {
                         <img src={face} alt="face"/>
                     </div>    
                 </div>
-                <p>Группы: <span>до 15 человек</span></p>
+                <p>ჯგუფები: <span>15 ბავშვამდე</span></p>
             </div>
 
             <div className="info-item">
@@ -56,7 +56,7 @@ function Info() {
                         <img src={chat} alt="chat"/>
                     </div>    
                 </div>
-                <p>Англоязычная среда: <span> билингвал / экспат</span></p>
+                <p>ინგლისურენოვანი სივრცე: <span> ბილინგვალური / ექსპატი</span></p>
             </div>
 
             <div className="info-item">
@@ -65,7 +65,7 @@ function Info() {
                         <img src={house} alt="house"/>
                     </div>    
                 </div>
-                <p>Помещение: <span>800 кв.м</span></p>
+                <p>საერთო სივრცე: <span>800 კვ. მ</span></p>
             </div>
 
             <div className="info-item">
@@ -74,7 +74,7 @@ function Info() {
                         <img src={wall} alt="wall"/>
                     </div>    
                 </div>
-                <p>Площадь для прогулок: <span>собственная оборудованная территория для прогулок</span></p>
+                <p>ადგილი გასეირნებისთვის: <span>კეთილმოწყობილი საკუთარი ეზო</span></p>
             </div>
 
             <div className="info-item">
@@ -83,7 +83,7 @@ function Info() {
                         <img src={baby} alt="baby"/>
                     </div>   
                 </div>
-                <p>Возраст детей: <span>с 1,5 до 7 лет</span></p>
+                <p>ბავშვების ასაკი: <span> 1,5-დან 7 წლამდე</span></p>
             </div>
 
             <div className="info-item">
@@ -92,7 +92,7 @@ function Info() {
                         <img src={fork} alt="fork"/>
                     </div>
                 </div>
-                <p>Питание: <span>5-разовое, с учетом индивидуальных особенностей ребенка</span></p>
+                <p>კვება: <span>5-ჯერადი, ბავშვების ინდივიდუალური საჭიროებების გათვალისწინებით</span></p>
             </div>   
             
         </section>

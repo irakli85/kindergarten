@@ -13,12 +13,12 @@ function Header() {
                 <img src={logo} alt="logo"/>
             </div>
             <nav>
-                <a href="/">О нас</a>
-                <a href="/">Расписание</a>
-                <a href="/">Программа</a>
-                <a href="/">Фото и видео</a>
-                <a href="/">Команда</a>
-                <a href="/">Контакты</a>
+                <a href="/">ჩვენს შესახებ</a>
+                <a href="/">განრიგი</a>
+                <a href="/">პროგრამა</a>
+                <a href="/">ფოტო და ვიდეო</a>
+                <a href="/">ჩვენი გუნდი</a>
+                <a href="/">კონტაქტი</a>
             </nav>
             <div className="header-contact">
                 <img src={phone} alt="phone"/>
@@ -28,7 +28,7 @@ function Header() {
                 <img src={whatsapp} alt="whatsapp"/>
                 <img src={telegram} alt="telegram"/>
             </div>
-            <button>Записаться на экскурсию</button>
+            <button>ჩაეწერეთ ექსკურსიაზე</button>
         </header>
     </>
   )

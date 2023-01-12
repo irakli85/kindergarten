@@ -11,42 +11,42 @@ function Advantages() {
   return (
     <>
       <section className="advantages">
-        <h3>Преимущества</h3>
-        <p className='advantages-info'>Наша авторская программа ведётся на русском и английском языках и состоит из увлекательных мероприятий</p>
+        <h3>უპირატესობები</h3>
+        <p className='advantages-info'>ჩვენი საავტორო პროგრამა შედგენილია ქართულ და რუსულ ენებზე და შედგება გასართობი ღონიძიებებისგან</p>
         <div className='advantages-cards'>
               <div className='advantages-card-items'>
                   <div className='advantages-card-items-img advantages-yellowBG'>
                       <img src={hat} alt="hat"/>
                   </div>
-                  <p>Мастер-классы</p>
+                  <p>მასტერ-კლასები</p>
               </div>
 
               <div className='advantages-card-items'>
                   <div className='advantages-card-items-img advantages-pinkBG'>
                       <img src={dice} alt="dice"/>
                   </div>
-                  <p>Игры-квесты</p>
+                  <p>თამაში-ამოცანები</p>
               </div>
 
               <div className='advantages-card-items'>
                   <div className='advantages-card-items-img advantages-blueBG'>
                       <img src={paper} alt="paper"/>
                   </div>
-                  <p>Опыты и эксперименты</p>
+                  <p>გამოცდილება და ექსპერიმენტები</p>
               </div>
 
               <div className='advantages-card-items'>
                   <div className='advantages-card-items-img advantages-blueBG'>
                       <img src={heart} alt="heart"/>
                   </div>
-                  <p>Конференции и проекты</p>
+                  <p>კონფერენციები და პროექტები</p>
               </div>
 
               <div className='advantages-card-items'>
                   <div className='advantages-card-items-img advantages-yellowBG'>
                       <img src={mic} alt="mic"/>
                   </div>
-                  <p>Концерты и спектакли</p>
+                  <p>კონცერტები და სპექტაკლები</p>
               </div>
 
             
@@ -55,7 +55,7 @@ function Advantages() {
                   <div className='advantages-card-items-img advantages-pinkBG'>
                       <img src={people} alt="people"/>
                   </div>
-                  <p>Соревнования</p>
+                  <p>შეჯიბრებები</p>
               </div>
         </div>
           

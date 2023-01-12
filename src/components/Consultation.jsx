@@ -6,21 +6,18 @@ function Consultation() {
   return (
     <>
         <section className="consultation">
-            <h3>Есть вопросы? Получите 
-                бесплатную консультацию</h3>
-            <p>Оставьте телефон и мы перезвоним 
-                и расскажем все подробности о филиале</p>
+            <h3> გაქვთ კითხვები? მიიღეთ უფასო კონსულტაცია</h3>
+            <p>დატოვეთ თქვენი ტელეფონი, ჩვენ დაგიკავშირდებით და მოგაწვდით ყველა ინფორმაციას ჩვენი ბაღის შესახებ</p>
             <form action="">
                 <div className='consultation-input'>
                     <input type="number" name="" id="" placeholder="+ 995 _  _  _  -  _  _  _  -  _  _  _"/>
-                    <button>отправить</button>
+                    <button>გაგზავნა</button>
                 </div>
                 <div className='consultation-checkbox'>
                     <div>
                         <input type="checkbox" name="terms" id="terms"/>
                     </div>
-                    <label htmlFor="terms">Я принимаю условия 
-                        пользовательского соглашения</label>
+                    <label htmlFor="terms">ვეთანხმები მომხმარებელთა უსაფრთხოების პირობებს</label>
                 </div>
             </form>
             <img className='consultation-ornament' src={ornament} alt='ornament'/>

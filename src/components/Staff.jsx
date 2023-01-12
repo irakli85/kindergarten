@@ -7,7 +7,7 @@ function Staff() {
   return (
     <>
       <section className="staff">
-        <h3>Наша команда</h3>
+        <h3>ჩვენი გუნდი</h3>
         <div className='staff-box'>
             <div className='staff-arrow staff-leftarrow'>
                 <img src={arrow} alt="arrow"/>
@@ -15,31 +15,31 @@ function Staff() {
             <div className='staff-gallery'>
                 <div className='staff-gallery-items'>
                     <img src={avatar} alt="avatar"/>
-                    <span className='staff-line1'>Журавлев</span>
-                    <span className='staff-line2'>Дмитрий Анатольевич</span>
-                    <span className='staff-line3'>Педагог - психолог</span>
-                    <span className='staff-line4'>Стаж 11 лет</span>
+                    <span className='staff-line1'>შანიძე</span>
+                    <span className='staff-line2'>მზექალა</span>
+                    <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
+                    <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
                 <div className='staff-gallery-items'>
                     <img src={avatar1} alt="avatar"/>
-                    <span className='staff-line1'>Журавлев</span>
-                    <span className='staff-line2'>Дмитрий Анатольевич</span>
-                    <span className='staff-line3'>Педагог - психолог</span>
-                    <span className='staff-line4'>Стаж 11 лет</span>
+                    <span className='staff-line1'>შანიძე</span>
+                    <span className='staff-line2'>მზექალა</span>
+                    <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
+                    <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
                 <div className='staff-gallery-items'>
                     <img src={avatar} alt="avatar"/>
-                    <span className='staff-line1'>Журавлев</span>
-                    <span className='staff-line2'>Дмитрий Анатольевич</span>
-                    <span className='staff-line3'>Педагог - психолог</span>
-                    <span className='staff-line4'>Стаж 11 лет</span>
+                    <span className='staff-line1'>შანიძე</span>
+                    <span className='staff-line2'>მზექალა</span>
+                    <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
+                    <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
                 <div className='staff-gallery-items'>
                     <img src={avatar1} alt="avatar"/>
-                    <span className='staff-line1'>Журавлев</span>
-                    <span className='staff-line2'>Дмитрий Анатольевич</span>
-                    <span className='staff-line3'>Педагог - психолог</span>
-                    <span className='staff-line4'>Стаж 11 лет</span>
+                    <span className='staff-line1'>შანიძე</span>
+                    <span className='staff-line2'>მზექალა</span>
+                    <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
+                    <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
             </div>
             <div className='staff-arrow'>

@@ -6,7 +6,7 @@ function Feedback() {
   return (
     <>
       <section className="feedback">
-        <h3>Отзывы о саде</h3>
+        <h3>გამოხმაურება</h3>
         <div className='feedback-container'>
           <div className='feedback-arrow'>
               <img src={arrow} alt="arrow"/>
@@ -19,14 +19,14 @@ function Feedback() {
                               <img src={user} alt="user"/>
                           </div>
                           <div className='feedback-user-info'>
-                            <span className='user-info-name'>Дмитрий</span>
-                            <span className='user-info-city'>Москва</span>
+                            <span className='user-info-name'>დიმიტრი</span>
+                            <span className='user-info-city'>ბათუმი</span>
                           </div>
                       </div>
-                      <p>Водим двоих детей, очень довольны уровнем и качеством образования, если нужен просто детский сад, то вам не сюда. Дети знают английский (произношение, грамматика и пр.)
+                      <p>დაგვყავს 2 ბავშვი, განათლების, კვების და ყურადღების ხარისხით ძალიან კმაყოფილი ვართ. ბავშვებმა ისწავლეს ინგლისური( გამოთქმა, გრანატიკა და ა.შ.)
                       </p>
                   </div>
-                  <p className='feedback-read'>Прочитать отзыв</p>
+                  <p className='feedback-read'>ნახვა</p>
               </div>
 
               <div className='feedback-info-items'>
@@ -36,14 +36,14 @@ function Feedback() {
                               <img src={user} alt="user"/>
                           </div>
                           <div className='feedback-user-info'>
-                            <span className='user-info-name'>Дмитрий</span>
-                            <span className='user-info-city'>Москва</span>
+                            <span className='user-info-name'>ქეთი</span>
+                            <span className='user-info-city'>ბათუმი</span>
                           </div>
                       </div>
-                      <p>Водим двоих детей, очень довольны уровнем и качеством образования, если нужен просто детский сад, то вам не сюда. Дети знают английский (произношение, грамматика и пр.)
+                      <p>დაგვყავს 2 ბავშვი, განათლების, კვების და ყურადღების ხარისხით ძალიან კმაყოფილი ვართ. ბავშვებმა ისწავლეს ინგლისური( გამოთქმა, გრანატიკა და ა.შ.)
                       </p>
                   </div>
-                  <p className='feedback-read'>Прочитать отзыв</p>
+                  <p className='feedback-read'>ნახვა</p>
               </div>
           </div>
           <div className='feedback-arrow'>

@@ -15,90 +15,88 @@ function Services() {
   return (
     <>
       <section className="services">
-        <h2>Дополнительные услуги</h2>
+        <h2>დამატებითი მომსახურეობები</h2>
         <div className="services-container">
             <div className="services-rows">
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={ioga} alt="ioga"/>
                     </div>
-                    <p>Йога</p>
+                    <p>იოგა</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={shapes} alt="shapes"/>
                     </div>
-                    <p>Монтессори группа с уникальным 
-древесинным оборудованием</p>
+                    <p>მონტესორის ჯგუფი უნიკალური ხის მოწყობილობებით</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={golf} alt="golf"/>
                     </div>
-                    <p>Гольф для 
-малышей</p>
+                    <p>გოლფი ბავშვებისთვის</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={bike} alt="bike"/>
                     </div>
-                    <p>Занятия с беговелами</p>
+                    <p>ველოსპორტი</p>
                 </div>
             </div>
 
             <div className="services-rows">
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={lego} alt="lego"/>
                     </div>
-                    <p>Легостроение и конструирование</p>
+                    <p>კონსტრუირება და ლეგო</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={eraser} alt="eraser"/>
                     </div>
-                    <p>Тестопластика и глинопластика</p>
+                    <p>პლასტელინისგან და თიხისგან ძერწვა</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={mic} alt="mic"/>
                     </div>
-                    <p>Риторика и ораторское мастерство</p>
+                    <p>რიტორიკა და ორატორული უნარები</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={climb} alt="climb"/>
                     </div>
-                    <p>Занятия по скалолазанию</p>
+                    <p>კლდეზე ცოცვა</p>
                 </div>
             </div>
 
             <div className="services-rows">
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={book} alt="book"/>
                     </div>
-                    <p>Театрализация на английском языке</p>
+                    <p>თეატრალური უნარები</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={cook} alt="cook"/>
                     </div>
-                    <p>Кулинария и этикет сервисного стола</p>
+                    <p>კულინარია და სუფრის სერვისის ეტიკეტი</p>
                 </div>
 
                 <div className="service-items">
-                    <div>
+                    <div className='service-items-imgbox'>
                         <img src={food} alt="food"/>
                     </div>
-                    <p>Песочная терапия. Работа на интерактивных столах и досках</p>
+                    <p>ქვიშის თერაპია</p>
                 </div>
 
             </div>

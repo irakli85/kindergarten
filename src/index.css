@@ -26,6 +26,16 @@ button{
     cursor: pointer;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;  
+}
+
+input:focus{
+    outline: solid 1px var(--red);
+}
+
 body{
     width: 100%;
     height: auto;
@@ -449,7 +459,7 @@ main{
 .services-rows{
     display: flex;
     gap: 19px;
-    justify-content: space-between;
+    justify-content: stretch;
 }
 
 .service-items{
@@ -458,10 +468,10 @@ main{
     background: var(--pinkBG);
     padding: 12px;
     border-radius: 10px;
-    min-width: 268px;
+    flex-grow: 1;
 }
 
-.service-items div{
+.service-items-imgbox{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -678,7 +688,10 @@ video{
 }
 
 .aboutus ul{
+    display: flex;
+    flex-direction: column;
     margin-top: 18px;
+    gap: 10px;
 }
 
 .aboutus li{
@@ -831,6 +844,7 @@ footer{
     font-weight: 600;
     font-size: 14px;
     color: var(--textBlue);
+    display: none;
 }
 
 .footer-info-adress span{
