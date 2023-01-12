@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import hat from '../assets/homePage/hat.png'
 import paper from '../assets/homePage/paper.png'
 import dice from '../assets/homePage/dice.png'
@@ -6,12 +6,20 @@ import mic from '../assets/homePage/mic.png'
 import heart from '../assets/homePage/heart.png'
 import people from '../assets/homePage/people.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-function Advantages() {
+
+const Advantages = () => {    
+    
+        useEffect( () => {
+        AOS.init({duration: 2000});
+      }, []);
+      
   return (
     <>
-      <section className="advantages">
-        <h3>უპირატესობები</h3>
+      <section className="advantages" data-aos="fade-up">
+        <h3 >უპირატესობები</h3>
         <p className='advantages-info'>ჩვენი საავტორო პროგრამა შედგენილია ქართულ და რუსულ ენებზე და შედგება გასართობი ღონიძიებებისგან</p>
         <div className='advantages-cards'>
               <div className='advantages-card-items'>

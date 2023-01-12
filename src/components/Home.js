@@ -14,10 +14,12 @@ import Footer from './Footer'
 import Poster from './Poster'
 
 function Home() {
+  
+
   return (
     <>
         <Header/>
-        <Main/>
+        <Main />
         <Info/>
         <Consultation/>
         <Services/>
