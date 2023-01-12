@@ -11,6 +11,7 @@ import Aboutus from './Aboutus'
 import Feedback from './Feedback'
 import Placemap from './Placemap'
 import Footer from './Footer'
+import Poster from './Poster'
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
         <Advantages/>
         <Staff/>
         <Aboutus/>
+        <Poster/>
         <Feedback/>
         <Placemap/>
         <Footer/>

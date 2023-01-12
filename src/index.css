@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Josefin+Sans:wght@400;500;600;700&family=Montserrat&family=Outfit:wght@400;700&display=swap');
 
 :root{
     --textBlue: #334155;
@@ -13,11 +13,19 @@
     --lightBlueBG: #F2F2FF;
 }
 
+@font-face {
+    font-family: 'BPG Arial';
+    src: url('./assets/fonts/font-bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: 'BPG Arial';
     text-decoration: none;
     border: none;
 }
@@ -128,7 +136,7 @@ main{
     color: var(--white);
 }
 
-.main-form p{
+.main-form p{    
     font-weight: 600;
     font-size: 14px;
     color: var(--white);
@@ -217,10 +225,12 @@ main{
     background-size: cover;
 }
 
-.main-info h1{    
+.main-info h1{  
+    font-family: 'Josefin Sans';  
     font-weight: 700;
     font-size: 96px;
     color: var(--textBlue);
+    
 }
 
 .main-info p{
@@ -526,7 +536,8 @@ video{
 /* SECTION ADVANTAGES */
 
 .advantages{
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-left: 10%;
 }
 .advantages h3{
     font-weight: 700;
@@ -663,6 +674,7 @@ video{
 
 .aboutus{
     margin-top: 84px;
+    margin-left: 10%;
 }
 
 .aboutus h3{
@@ -701,6 +713,17 @@ video{
     color: var(--textBlue);
 }
 
+/* POSTER */
+.poster{
+    margin-top: 100px;
+    width: 100%
+}
+
+.poster img{
+    width: 100%;
+    border-radius: 20px;
+}
+
 /* SECTION FEEDBACK */
 
 .feedback{
@@ -708,10 +731,12 @@ video{
     height: 569px;
     background: var(--lightBlueBG);
     border-radius: 20px;
+    padding: 35px;
 }
 
 .feedback h3{
-    margin-top: 68px;
+    margin-top: 35px;
+    margin-left: 110px;
     font-weight: 700;
     font-size: 40px;
     color: var(--textBlue);
@@ -798,6 +823,10 @@ video{
     position: absolute;
     top: 164px;
     left: 865px;
+}
+
+.placemap iframe{
+    border-radius: 20px;
 }
 
 
@@ -892,4 +921,4 @@ footer{
     color: var(--textBlue);
 }
 
-
+    
