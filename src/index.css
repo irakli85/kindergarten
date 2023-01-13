@@ -55,7 +55,7 @@ body{
                       url('./assets/homePage/ornament7.png'),
                       url('./assets/homePage/ornament6.png'),
                       url('./assets/homePage/ornament12.png');
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-repeat: no-repeat, no-repeat, repeat-x, no-repeat;
     background-position: top 860px left 0,
                          top 2800px left 0,
                          top 2670px left 0,
@@ -586,7 +586,9 @@ video{
    border-radius: 20px;
 }
 
-.video3{
+.video4,
+.video5,
+.video6{
     display: none;
 }
 
@@ -657,6 +659,9 @@ video{
 .staff{
     width: 100%;
     margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .staff h3{
@@ -664,6 +669,7 @@ video{
     font-weight: 700;
     font-size: 40px;
     color: var(--btnBg);
+    align-self: flex-start;
 }
 
 .staff-box{ 
@@ -840,8 +846,7 @@ video{
 }
 
 .feedback-info-items-mainbox{
-    width: 594px;
-    height: 247px;
+    max-width: 594px;
     background: var(--white);
     border-radius: 20px;
     padding: 35px;
@@ -984,9 +989,49 @@ footer{
 }
 
 .footer-nav-links a{
+    min-width: 115px;
     font-weight: 500;
     font-size: 12px;
     color: var(--textBlue);
+}
+
+@media screen and (max-width: 1840px){
+    .footer-phone p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1580px){
+    .header-contact span,
+    .header-contact img{
+        display: none;
+    }
+    .footer-phone p{
+        font-size: 16px;
+    }
+
+    .video3{
+        display: none;
+    }
+
+    .feedback{
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 1430px){
+    .staff-item4,
+    .header-social{
+        display: none;
+    }
+
+    .pulse{
+        margin-left: 10px;
+    }
+
+    .footer-main{
+        gap: 40px;
+    }
 }
 
  

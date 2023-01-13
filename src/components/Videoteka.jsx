@@ -19,12 +19,12 @@ function Videoteka() {
             <h2 data-aos='fade-up'>ჩვენი ბაღის ვიდეო-გალერეა</h2>
             <p data-aos='fade-up'>თქვენ შეგიძლიათ ნახოთ ბაღის ყოველდღიური გარემო</p>
             <div data-aos='fade-up'>               
-                <video src={video} poster={poster1} controls></video>
-                <video src={video} poster={poster2} controls></video>
+                <video className='video1' src={video} poster={poster1} controls></video>
+                <video className='video2' src={video} poster={poster2} controls></video>
                 <video className='video3' src={video} poster={poster3} controls></video>                
-                <video className='video3' src={video} poster={poster1} controls></video>                
-                <video className='video3' src={video} poster={poster2} controls></video>                
-                <video className='video3' src={video} poster={poster3} controls></video>                
+                <video className='video4' src={video} poster={poster1} controls></video>                
+                <video className='video5' src={video} poster={poster2} controls></video>                
+                <video className='video6' src={video} poster={poster3} controls></video>                
             </div>
         </section>
     </>

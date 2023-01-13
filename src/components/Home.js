@@ -14,8 +14,7 @@ import Placemap from './Placemap'
 import Footer from './Footer'
 
 
-function Home() {
-  
+function Home() {  
 
   return (
     <>

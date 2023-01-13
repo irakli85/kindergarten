@@ -42,7 +42,7 @@ function Staff() {
                     <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
                     <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
-                <div className='staff-gallery-items'>
+                <div className='staff-gallery-items staff-item4'>
                     <img src={avatar1} alt="avatar"/>
                     <span className='staff-line1'>შანიძე</span>
                     <span className='staff-line2'>მზექალა</span>

@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import pointer from '../assets/homePage/ornament11.png'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
