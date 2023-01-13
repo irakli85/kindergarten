@@ -3,6 +3,7 @@ import logo from '../assets/homePage/Taati.png'
 import phone from '../assets/homePage/phone.png'
 import telegram from '../assets/homePage/telegram.png'
 import whatsapp from '../assets/homePage/whatsapp.png'
+import fb from '../assets/homePage/facebook.png'
 
 
 function Footer() {
@@ -26,6 +27,7 @@ function Footer() {
                     <div className='footer-socials'>
                         <img src={telegram} alt="telegram"/>
                         <img src={whatsapp} alt="whatsapp"/>
+                        <img src={fb} alt="fb"/>
                     </div>
                     <p className='footer-copyright'>Copyrights: Taati 2023</p>
                 </div>
