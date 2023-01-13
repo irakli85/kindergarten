@@ -18,7 +18,7 @@ function Videoteka() {
         <section className="videoteka" >
             <h2 data-aos='fade-up'>ჩვენი ბაღის ვიდეო-გალერეა</h2>
             <p data-aos='fade-up'>თქვენ შეგიძლიათ ნახოთ ბაღის ყოველდღიური გარემო</p>
-            <div data-aos='fade-right'>               
+            <div data-aos='fade-up'>               
                 <video src={video} poster={poster1} controls></video>
                 <video src={video} poster={poster2} controls></video>
                 <video src={video} poster={poster3} controls></video>                

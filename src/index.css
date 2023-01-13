@@ -50,6 +50,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('./assets/homePage/ornament8.png'),
+                      url('./assets/homePage/ornament7.png'),
+                      url('./assets/homePage/ornament6.png'),
+                      url('./assets/homePage/ornament12.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top 860px left 0,
+                         top 2800px left 0,
+                         top 2670px left 0,
+                         bottom 0 right 0;
 }
 
 #root{
@@ -696,11 +705,18 @@ video{
 /* SECTION ABOUTUS */
 
 .aboutus{
+    width: 100%;
     margin-top: 84px;
-    margin-left: 10%;
+    padding-left: 10%;
+    background-color: var(--pinkBG);
+    border-radius: 20px;
+    background-image: url('./assets/homePage/ornament.png');
+    background-repeat: no-repeat;
+    background-position: top -130px right 0;
 }
 
 .aboutus h3{
+    margin-top: 48px;
     font-weight: 700;
     font-size: 40px;
     color: var(--btnBg);
@@ -727,6 +743,7 @@ video{
     flex-direction: column;
     margin-top: 18px;
     gap: 10px;
+    margin-bottom: 48px;
 }
 
 .aboutus li{
@@ -752,9 +769,12 @@ video{
 .feedback{
     margin-top: 99px;
     height: 569px;
-    background: var(--lightBlueBG);
+    background-color: var(--lightBlueBG);
     border-radius: 20px;
     padding: 35px;
+    background-image: url('./assets/homePage/ornament10.png');
+    background-repeat: no-repeat;
+    background-position: top 30px right 80px;
 }
 
 .feedback h3{
