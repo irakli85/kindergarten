@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kindergarten/static/css/main.5e4b5acb.css",
-    "main.js": "/kindergarten/static/js/main.4cbd49fa.js",
+    "main.css": "/kindergarten/static/css/main.f3e24c0c.css",
+    "main.js": "/kindergarten/static/js/main.8dd2b690.js",
     "static/media/video.mp4": "/kindergarten/static/media/video.4e510891b2e52c75eada.mp4",
     "static/media/painting.png": "/kindergarten/static/media/painting.56fceb82fe77138dbb71.png",
     "static/media/bg.png": "/kindergarten/static/media/bg.2a12642d47d357be7a1b.png",
@@ -18,11 +18,11 @@
     "static/media/ornament6.png": "/kindergarten/static/media/ornament6.0724d09786e24de701ea.png",
     "static/media/arrowdown1.svg": "/kindergarten/static/media/arrowdown1.d4667f8f1fa6add67fe23a256aa0b086.svg",
     "index.html": "/kindergarten/index.html",
-    "main.5e4b5acb.css.map": "/kindergarten/static/css/main.5e4b5acb.css.map",
-    "main.4cbd49fa.js.map": "/kindergarten/static/js/main.4cbd49fa.js.map"
+    "main.f3e24c0c.css.map": "/kindergarten/static/css/main.f3e24c0c.css.map",
+    "main.8dd2b690.js.map": "/kindergarten/static/js/main.8dd2b690.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e4b5acb.css",
-    "static/js/main.4cbd49fa.js"
+    "static/css/main.f3e24c0c.css",
+    "static/js/main.8dd2b690.js"
   ]
 }
