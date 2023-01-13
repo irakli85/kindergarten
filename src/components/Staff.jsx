@@ -1,12 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import arrow from '../assets/homePage/arrow1.png'
 import avatar from '../assets/homePage/avatar.png'
 import avatar1 from '../assets/homePage/avatar1.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function Staff() {
+
+  useEffect( () => {
+    AOS.init({duration: 2000})
+  }, []);
+
   return (
     <>
-      <section className="staff">
+      <section className="staff" data-aos='fade-up'>
         <h3>ჩვენი გუნდი</h3>
         <div className='staff-box'>
             <div className='staff-arrow staff-leftarrow'>

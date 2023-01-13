@@ -1,11 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import ornament from '../assets/homePage/ornament1.png'
 import boy from '../assets/homePage/boy1.png'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Consultation() {
+    useEffect( () => {
+        AOS.init({duration:2000});
+    }, []);
+
   return (
     <>
-        <section className="consultation">
+        <section className="consultation" data-aos='fade-up'>
             <h3> გაქვთ კითხვები? მიიღეთ უფასო კონსულტაცია</h3>
             <p>დატოვეთ თქვენი ტელეფონი, ჩვენ დაგიკავშირდებით და მოგაწვდით ყველა ინფორმაციას ჩვენი ბაღის შესახებ</p>
             <form action="">

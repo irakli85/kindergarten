@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import ioga from '../assets/homePage/ioga.png'
 import shapes from '../assets/homePage/shapes.png'
 import golf from '../assets/homePage/golf.png'
@@ -11,13 +11,21 @@ import book from '../assets/homePage/book.png'
 import cook from '../assets/homePage/cook.png'
 import food from '../assets/homePage/food.png'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 function Services() {
+
+    useEffect( () => {
+        AOS.init({duration:2000});
+    }, []);
+
   return (
     <>
       <section className="services">
-        <h2>დამატებითი მომსახურეობები</h2>
+        <h2 data-aos='fade-up'>დამატებითი მომსახურეობები</h2>
         <div className="services-container">
-            <div className="services-rows">
+            <div className="services-rows" data-aos='fade-up'>
                 <div className="service-items">
                     <div className='service-items-imgbox'>
                         <img src={ioga} alt="ioga"/>
@@ -47,7 +55,7 @@ function Services() {
                 </div>
             </div>
 
-            <div className="services-rows">
+            <div className="services-rows" data-aos='fade-up'>
                 <div className="service-items">
                     <div className='service-items-imgbox'>
                         <img src={lego} alt="lego"/>
@@ -77,7 +85,7 @@ function Services() {
                 </div>
             </div>
 
-            <div className="services-rows">
+            <div className="services-rows" data-aos='fade-up'>
                 <div className="service-items">
                     <div className='service-items-imgbox'>
                         <img src={book} alt="book"/>
