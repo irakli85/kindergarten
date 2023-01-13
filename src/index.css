@@ -123,6 +123,16 @@ header button{
     color: var(--white);
 }
 
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 var(--btnBg); }
+}
+
 /* MAIN */
 main{
     width: 100%;
@@ -407,7 +417,7 @@ main{
     color: var(--textBlue);
 }
 
-.consultation-input button{
+.consultation-btn{
     width: 308px;
     height: 40px;
     border-radius: 50px;
@@ -418,6 +428,16 @@ main{
     font-size: 16px;
     text-transform: uppercase;
     color: var(--textBlue);
+}
+
+.consultation-btn:hover, 
+.consultation-btn:focus {
+  animation: pulse1 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse1 {
+  0% { box-shadow: 0 0 0 0 var(--yellow); }
 }
 
 .consultation-checkbox{
@@ -556,6 +576,7 @@ main{
 .videoteka div{
     margin-top: 72px;
     display: flex;
+    justify-content: center;
     gap: 20px;    
 }
 
@@ -871,19 +892,11 @@ video{
 .placemap{
     width: 100%;
     margin-top: 60px;
-    position: relative;
-}
-
-.placemap-pointer{
-    position: absolute;
-    top: 164px;
-    left: 865px;
 }
 
 .placemap iframe{
     border-radius: 20px;
 }
-
 
 /* FOOTER */
 
@@ -976,4 +989,4 @@ footer{
     color: var(--textBlue);
 }
 
-    
+ 

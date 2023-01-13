@@ -8,10 +8,11 @@ import Videoteka from './Videoteka'
 import Advantages from './Advantages'
 import Staff from './Staff'
 import Aboutus from './Aboutus'
+import Poster from './Poster'
 import Feedback from './Feedback'
 import Placemap from './Placemap'
 import Footer from './Footer'
-import Poster from './Poster'
+
 
 function Home() {
   

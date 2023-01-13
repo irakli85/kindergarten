@@ -28,7 +28,7 @@ function Header() {
                 <img src={whatsapp} alt="whatsapp"/>
                 <img src={telegram} alt="telegram"/>
             </div>
-            <button>ჩაეწერეთ ექსკურსიაზე</button>
+            <button className='pulse'>ჩაეწერეთ ექსკურსიაზე</button>
         </header>
     </>
   )

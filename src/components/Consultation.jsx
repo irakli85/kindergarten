@@ -17,7 +17,7 @@ function Consultation() {
             <form action="">
                 <div className='consultation-input'>
                     <input type="number" name="" id="" placeholder="+ 995 _  _  _  -  _  _  _  -  _  _  _"/>
-                    <button>გაგზავნა</button>
+                    <button className='consultation-btn'>გაგზავნა</button>
                 </div>
                 <div className='consultation-checkbox'>
                     <div>
