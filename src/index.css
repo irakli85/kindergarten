@@ -28,6 +28,7 @@
     font-family: 'BPG Arial';
     text-decoration: none;
     border: none;
+    /* outline: solid red; */
 }
 
 button{
@@ -864,6 +865,7 @@ video{
 /* SECTION PLACEMAP */
 
 .placemap{
+    width: 100%;
     margin-top: 60px;
     position: relative;
 }
