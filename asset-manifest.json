@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kindergarten/static/css/main.adb7ed04.css",
-    "main.js": "/kindergarten/static/js/main.08874553.js",
+    "main.css": "/kindergarten/static/css/main.84e44fb9.css",
+    "main.js": "/kindergarten/static/js/main.97f86973.js",
     "static/media/video.mp4": "/kindergarten/static/media/video.4e510891b2e52c75eada.mp4",
     "static/media/painting.png": "/kindergarten/static/media/painting.56fceb82fe77138dbb71.png",
     "static/media/bg.png": "/kindergarten/static/media/bg.2a12642d47d357be7a1b.png",
@@ -13,14 +13,16 @@
     "static/media/poster3.png": "/kindergarten/static/media/poster3.d8df04535dea3dcd772e.png",
     "static/media/poster2.png": "/kindergarten/static/media/poster2.fbe7301148768b4e6f44.png",
     "static/media/ornament1.png": "/kindergarten/static/media/ornament1.de08f717efecec83b5e5.png",
+    "static/media/ornament.png": "/kindergarten/static/media/ornament.c1ec6bd4ac479a4b5246.png",
     "static/media/Taati.png": "/kindergarten/static/media/Taati.7e292c44d66ab8d05d1f.png",
+    "static/media/ornament6.png": "/kindergarten/static/media/ornament6.0724d09786e24de701ea.png",
     "index.html": "/kindergarten/index.html",
     "static/media/arrowdown1.svg": "/kindergarten/static/media/arrowdown1.5c05970993ac9f334e32cf549f502b15.svg",
-    "main.adb7ed04.css.map": "/kindergarten/static/css/main.adb7ed04.css.map",
-    "main.08874553.js.map": "/kindergarten/static/js/main.08874553.js.map"
+    "main.84e44fb9.css.map": "/kindergarten/static/css/main.84e44fb9.css.map",
+    "main.97f86973.js.map": "/kindergarten/static/js/main.97f86973.js.map"
   },
   "entrypoints": [
-    "static/css/main.adb7ed04.css",
-    "static/js/main.08874553.js"
+    "static/css/main.84e44fb9.css",
+    "static/js/main.97f86973.js"
   ]
 }
