@@ -15,10 +15,10 @@ function Videoteka() {
 
   return (
     <>
-        <section className="videoteka" data-aos='fade-right'>
-            <h2>ჩვენი ბაღის ვიდეო-გალერეა</h2>
-            <p>თქვენ შეგიძლიათ ნახოთ ბაღის ყოველდღიური გარემო</p>
-            <div>               
+        <section className="videoteka" >
+            <h2 data-aos='fade-up'>ჩვენი ბაღის ვიდეო-გალერეა</h2>
+            <p data-aos='fade-up'>თქვენ შეგიძლიათ ნახოთ ბაღის ყოველდღიური გარემო</p>
+            <div data-aos='fade-right'>               
                 <video src={video} poster={poster1} controls></video>
                 <video src={video} poster={poster2} controls></video>
                 <video src={video} poster={poster3} controls></video>                

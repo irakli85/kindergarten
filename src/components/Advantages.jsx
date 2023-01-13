@@ -18,10 +18,10 @@ const Advantages = () => {
       
   return (
     <>
-      <section className="advantages" data-aos="fade-up">
-        <h3 >უპირატესობები</h3>
-        <p className='advantages-info'>ჩვენი საავტორო პროგრამა შედგენილია ქართულ და რუსულ ენებზე და შედგება გასართობი ღონიძიებებისგან</p>
-        <div className='advantages-cards'>
+      <section className="advantages" >
+        <h3 data-aos="fade-up">უპირატესობები</h3>
+        <p className='advantages-info' data-aos="fade-up">ჩვენი საავტორო პროგრამა შედგენილია ქართულ და რუსულ ენებზე და შედგება გასართობი ღონიძიებებისგან</p>
+        <div className='advantages-cards' data-aos="fade-up">
               <div className='advantages-card-items'>
                   <div className='advantages-card-items-img advantages-yellowBG'>
                       <img src={hat} alt="hat"/>

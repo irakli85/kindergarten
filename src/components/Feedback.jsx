@@ -13,9 +13,9 @@ useEffect( () => {
 
   return (
     <>
-      <section className="feedback" data-aos='fade-up'>
-        <h3>გამოხმაურება</h3>
-        <div className='feedback-container'>
+      <section className="feedback">
+        <h3 data-aos='fade-up'>გამოხმაურება</h3>
+        <div className='feedback-container' data-aos='fade-up'>
           <div className='feedback-arrow'>
               <img src={arrow} alt="arrow"/>
           </div>
