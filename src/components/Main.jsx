@@ -1,6 +1,7 @@
 import React from 'react'
 import arrowLeft from '../assets/homePage/arrowleft.png'
 import arrowRight from '../assets/homePage/arrowright.png'
+import arrowDown from '../assets/homePage/arrowdown1.svg'
 
 function Main() {
   return (
@@ -16,6 +17,9 @@ function Main() {
                     <div>
                         <img src={arrowRight} alt="arrow right"/>
                     </div>
+                </div>
+                <div className='main-arrowdown'>
+                    <img className='bounce' src={arrowDown} alt="scroll arrow" />
                 </div>
             </div>
             <form action="" className="main-form">                

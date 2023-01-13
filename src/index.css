@@ -234,6 +234,7 @@ main{
 }
 
 .main-info p{
+    position: relative;
     margin-top: 11px;
     font-weight: 600;
     font-size: 36px;
@@ -263,6 +264,26 @@ main{
     background: #FFFFFF;
     border: none;
 }
+
+.main-arrowdown{
+    position: absolute;
+    left: 50%;
+    top: 690px;   
+}
+
+.bounce{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: bouncing;
+    animation-timing-function: linear;
+}
+@keyframes bouncing {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
 
 /* SECTION INFORMATION */
 
@@ -598,10 +619,12 @@ video{
 /* SECTION STAFF */
 
 .staff{
+    width: 100%;
     margin-top: 95px;
 }
 
 .staff h3{
+    margin-left: 10%;
     font-weight: 700;
     font-size: 40px;
     color: var(--btnBg);
