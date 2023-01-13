@@ -21,7 +21,10 @@ function Videoteka() {
             <div data-aos='fade-up'>               
                 <video src={video} poster={poster1} controls></video>
                 <video src={video} poster={poster2} controls></video>
-                <video src={video} poster={poster3} controls></video>                
+                <video className='video3' src={video} poster={poster3} controls></video>                
+                <video className='video3' src={video} poster={poster1} controls></video>                
+                <video className='video3' src={video} poster={poster2} controls></video>                
+                <video className='video3' src={video} poster={poster3} controls></video>                
             </div>
         </section>
     </>

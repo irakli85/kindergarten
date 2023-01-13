@@ -59,6 +59,7 @@ body{
                          top 2800px left 0,
                          top 2670px left 0,
                          bottom 0 right 0;
+    /* overflow-x: hidden;                      */
 }
 
 #root{
@@ -563,6 +564,10 @@ video{
    border-radius: 20px;
 }
 
+.video3{
+    display: none;
+}
+
 /* SECTION ADVANTAGES */
 
 .advantages{
@@ -708,6 +713,7 @@ video{
     width: 100%;
     margin-top: 84px;
     padding-left: 10%;
+    padding-right: 10%;
     background-color: var(--pinkBG);
     border-radius: 20px;
     background-image: url('./assets/homePage/ornament.png');
