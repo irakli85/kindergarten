@@ -809,6 +809,10 @@ video{
     border-radius: 50%;
 }
 
+.feedback-left-arrow{
+    transform: rotate(180deg);
+}
+
 .feedback-info{
     display: flex;
     gap: 40px;
