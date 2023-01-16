@@ -13,9 +13,9 @@ function Header() {
                 <img src={logo} alt="logo"/>
             </div>
             <nav>
-                <a href="/">ჩვენს შესახებ</a>
-                <a href="/">განრიგი</a>
-                <a href="/">პროგრამა</a>
+                <a className='nav-dropdown' href="/">ჩვენს შესახებ</a>
+                <a className='nav-dropdown' href="/">განრიგი</a>
+                <a className='nav-dropdown' href="/">პროგრამა</a>
                 <a href="/">ფოტო და ვიდეო</a>
                 <a href="/">ჩვენი გუნდი</a>
                 <a href="/">კონტაქტი</a>
