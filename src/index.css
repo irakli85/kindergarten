@@ -1035,7 +1035,7 @@ footer{
     color: var(--textBlue);
 }
 
-@media screen and (max-width: 1850px){
+@media screen and (max-width: 1860px){
     .footer-phone p{
         font-size: 20px;
     }
