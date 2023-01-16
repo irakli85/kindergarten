@@ -1037,7 +1037,7 @@ footer{
 
 @media screen and (max-width: 1860px){
     .footer-phone p{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -1046,9 +1046,7 @@ footer{
     .header-contact img{
         display: none;
     }
-    .footer-phone p{
-        font-size: 16px;
-    }
+    
 
     .video3{
         display: none;
