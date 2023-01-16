@@ -83,6 +83,7 @@ header{
     z-index: 100;
     padding-left: 10%;
     padding-right: 10%;
+    opacity: 0.9;
 }
 
 .header-img img{
