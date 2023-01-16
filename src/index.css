@@ -60,7 +60,7 @@ body{
                          top 2800px left 0,
                          top 2670px left 0,
                          bottom 0 right 0;
-    /* overflow-x: hidden;                      */
+    overflow-x: hidden;                     
 }
 
 #root{
@@ -76,17 +76,19 @@ header{
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: sticky;
     top: 0;
     background: #fff;
     z-index: 100;
-    /* outline: solid red; */
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header-img img{
     width: 230px;
     height: 100px;
+    
 }
 
 header nav{
