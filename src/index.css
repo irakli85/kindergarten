@@ -123,7 +123,8 @@ nav a:hover{
 
 .header-contact{
     display: flex;
-    align-items: center;    
+    align-items: center;
+    margin-left: 5px;    
 }
 
 .header-contact span{
@@ -135,6 +136,7 @@ nav a:hover{
 .header-social{
     display: flex;
     gap: 6px;
+    margin-left: 5px;
 }
 
 header button{
@@ -145,6 +147,7 @@ header button{
     font-weight: 700;
     font-size: 12px;
     color: var(--white);
+    margin-left: 5px;
 }
 
 .pulse:hover, 
