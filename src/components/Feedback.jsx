@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import arrow from '../assets/homePage/arrow1.png'
 import user from '../assets/homePage/user.png'
 
+
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -57,7 +58,7 @@ useEffect( () => {
           <div className='feedback-arrow'>
               <img src={arrow} alt="arrow"/>
           </div>
-        </div>
+        </div>        
       </section>
     </>
   )
