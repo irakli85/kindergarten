@@ -68,15 +68,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 /* HEADER */
 header{
-    width: 90%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 100;
     /* outline: solid red; */
 }
 
