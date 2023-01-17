@@ -1088,7 +1088,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 1580px){
+@media screen and (max-width: 1650px){
     .header-contact span,
     .header-contact img{
         display: none;
