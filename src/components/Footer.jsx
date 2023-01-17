@@ -69,7 +69,8 @@ function Footer() {
                         <h3>კონტაქტი</h3>
                     </div>
                 </div>
-            </div>
+            </div>         
+            
         </footer>
     </>
   )
