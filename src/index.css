@@ -1119,4 +1119,32 @@ footer{
     }
 }
 
+
+
+/* ------------------------ */
+
+
+/* footer {
+  width:100vw;
+  position:fixed;
+  bottom:0px
+}
+
+svg {
+  width:100%;
+} */
+
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count:infinite;
+  fill: #4478e3;
+}
+
+@keyframes wave {
+  to {transform: translateX(-100%);}
+}
+
+
+
  
