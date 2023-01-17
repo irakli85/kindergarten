@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kindergarten/static/css/main.656cbd36.css",
-    "main.js": "/kindergarten/static/js/main.ef476b10.js",
+    "main.css": "/kindergarten/static/css/main.4d71f196.css",
+    "main.js": "/kindergarten/static/js/main.6e532024.js",
     "static/media/video.mp4": "/kindergarten/static/media/video.4e510891b2e52c75eada.mp4",
     "static/media/painting.png": "/kindergarten/static/media/painting.56fceb82fe77138dbb71.png",
     "static/media/bg.png": "/kindergarten/static/media/bg.2a12642d47d357be7a1b.png",
@@ -19,11 +19,11 @@
     "static/media/arrowdown1.svg": "/kindergarten/static/media/arrowdown1.d4667f8f1fa6add67fe23a256aa0b086.svg",
     "static/media/attach.svg": "/kindergarten/static/media/attach.1aa979b99ceee21b5e2e.svg",
     "index.html": "/kindergarten/index.html",
-    "main.656cbd36.css.map": "/kindergarten/static/css/main.656cbd36.css.map",
-    "main.ef476b10.js.map": "/kindergarten/static/js/main.ef476b10.js.map"
+    "main.4d71f196.css.map": "/kindergarten/static/css/main.4d71f196.css.map",
+    "main.6e532024.js.map": "/kindergarten/static/js/main.6e532024.js.map"
   },
   "entrypoints": [
-    "static/css/main.656cbd36.css",
-    "static/js/main.ef476b10.js"
+    "static/css/main.4d71f196.css",
+    "static/js/main.6e532024.js"
   ]
 }
