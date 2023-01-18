@@ -833,7 +833,8 @@ video{
     background: linear-gradient(130.83deg, rgba(128, 129, 189, 0.8) 14.95%, rgba(128, 129, 189, 0.8) 79.77%);
     backdrop-filter: blur(15px);
     z-index: 200;
-    display: flex;
+    /* display: flex; */
+    display: none;
     justify-content: center;
     align-items:center;
 }
