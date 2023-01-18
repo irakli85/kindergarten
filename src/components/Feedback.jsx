@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import arrow from '../assets/homePage/arrow1.png'
 import user from '../assets/homePage/user.png'
 
 
