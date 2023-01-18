@@ -47,15 +47,15 @@ function Header() {
                     <img src={logo} alt="logo"/>
                 </div>
                 <nav>
-                    <a onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave} className='nav-dropdown' href="/">ჩვენს შესახებ</a>
-                    <a onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave} className='nav-dropdown' href="/">განრიგი</a>
-                    <a onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave} className='nav-dropdown' href="/">პროგრამა</a>
-                    <a href="/">ფოტო და ვიდეო</a>
-                    <a href="/">ჩვენი გუნდი</a>
-                    <a href="/">კონტაქტი</a>
+                    <p onClick={handleMouseEnter}
+            className='nav-dropdown'>ჩვენს შესახებ</p>
+                    <p onClick={handleMouseEnter}
+             className='nav-dropdown' href="/">განრიგი</p>
+                    <p onClick={handleMouseEnter}
+            className='nav-dropdown' href="/">პროგრამა</p>
+                    <p>ფოტო და ვიდეო</p>
+                    <p>ჩვენი გუნდი</p>
+                    <p>კონტაქტი</p>
                 </nav>
                 <div className="header-contact">
                     <img src={phone} alt="phone"/>

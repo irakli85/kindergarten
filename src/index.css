@@ -101,12 +101,13 @@ header{
     gap: 20px;
 }
 
-nav a{
+nav p{
     font-weight: 600;
     font-size: 14px;
     color: var(--textBlue);
     position: relative;
     padding-bottom: 20px;
+    cursor: pointer;
 }
 
 .nav-dropdown::before{
@@ -127,7 +128,7 @@ nav a{
     
 }
 
-nav a:hover{
+nav p:hover{
     color: var(--red);
 }
 
