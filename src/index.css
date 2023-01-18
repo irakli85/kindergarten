@@ -798,19 +798,35 @@ video{
     color: var(--textBlue);
 }
 
-.staff-arrow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.staff-arrow{    
     width: 60px;
     height: 60px;
     border: solid 1px var(--btnBg);
     border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
-.staff-leftarrow img{
-    transform: rotate(180deg);
+.staff-leftarrow{
+    background-image: url('./assets/homePage/arrow3.png');
+    
 }
+
+.staff-leftarrow:hover{
+    background-image: url('./assets/homePage/arrow.png');
+    background-color: var(--btnBg);    
+}
+.staff-rightarrow{
+    background-image: url('./assets/homePage/arrow1.png');    
+}
+
+.staff-rightarrow:hover{
+    background-image: url('./assets/homePage/arrow2.png');
+    background-color: var(--btnBg);    
+}
+
+
 
 /* SECTION ABOUTUS */
 
@@ -905,18 +921,32 @@ video{
     align-items: center;
 }
 
-.feedback-arrow{
+.feedback-arrow{    
     width: 60px;
     height: 60px;
     border: solid 1px var(--btnBg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
-.feedback-left-arrow{
-    transform: rotate(180deg);
+.feedback-leftarrow{
+    background-image: url('./assets/homePage/arrow3.png');
+    
+}
+
+.feedback-leftarrow:hover{
+    background-image: url('./assets/homePage/arrow.png');
+    background-color: var(--btnBg);    
+}
+.feedback-rightarrow{
+    background-image: url('./assets/homePage/arrow1.png');    
+}
+
+.feedback-rightarrow:hover{
+    background-image: url('./assets/homePage/arrow2.png');
+    background-color: var(--btnBg);    
 }
 
 .feedback-info{

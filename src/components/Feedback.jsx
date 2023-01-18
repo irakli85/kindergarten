@@ -17,8 +17,8 @@ useEffect( () => {
       <section className="feedback">
         <h3 data-aos='fade-up'>გამოხმაურება</h3>
         <div className='feedback-container' data-aos='fade-up'>
-          <div className='feedback-arrow feedback-left-arrow'>
-              <img src={arrow} alt="arrow"/>
+          <div className='feedback-arrow feedback-leftarrow'>
+              
           </div>
           <div className='feedback-info'>
               <div className='feedback-info-items'>
@@ -55,8 +55,8 @@ useEffect( () => {
                   <p className='feedback-read'>ნახვა</p>
               </div>
           </div>
-          <div className='feedback-arrow'>
-              <img src={arrow} alt="arrow"/>
+          <div className='feedback-arrow feedback-rightarrow'>
+              
           </div>
         </div>        
       </section>

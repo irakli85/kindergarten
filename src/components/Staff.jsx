@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-import arrow from '../assets/homePage/arrow1.png'
 import avatar from '../assets/homePage/avatar.png'
 import avatar1 from '../assets/homePage/avatar1.png'
 
@@ -18,7 +17,7 @@ function Staff() {
         <h3>ჩვენი გუნდი</h3>
         <div className='staff-box'>
             <div className='staff-arrow staff-leftarrow'>
-                <img src={arrow} alt="arrow"/>
+               
             </div>
             <div className='staff-gallery'>
                 <div className='staff-gallery-items'>
@@ -50,8 +49,8 @@ function Staff() {
                     <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
             </div>
-            <div className='staff-arrow'>
-                <img src={arrow} alt="arrow"/>
+            <div className='staff-arrow staff-rightarrow'>
+                
             </div>
         </div>
       </section>
