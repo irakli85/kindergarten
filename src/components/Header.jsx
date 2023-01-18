@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
 import logo from '../assets/homePage/Taati.png'
 import phone from '../assets/homePage/phone.png'
-import whatsapp from '../assets/homePage/whatsapp.png'
-import telegram from '../assets/homePage/telegram.png'
+import whatsapp from '../assets/homePage/whatsapp.svg'
+import telegram from '../assets/homePage/telegram.svg'
+import fb from '../assets/homePage/facebook.svg'
 import close from '../assets/homePage/close.svg'
 
 
@@ -22,7 +23,7 @@ function Header() {
       display: isHover ? 'flex' : 'none',
    };
 
-//MODAL WINDOW OPEN
+//MODAL WINDOW
    const [click, setClick] = useState(false);
 
     const handleClickOpen = () =>{
@@ -64,6 +65,7 @@ function Header() {
                 <div className="header-social">
                     <img src={whatsapp} alt="whatsapp"/>
                     <img src={telegram} alt="telegram"/>
+                    <img src={fb} alt="facebook"/>
                 </div>
                 <button onClick={handleClickOpen} className='pulse'>ჩაეწერეთ ექსკურსიაზე</button>
             </div>
