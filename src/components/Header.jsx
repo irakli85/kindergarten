@@ -25,8 +25,12 @@ function Header() {
 //MODAL WINDOW OPEN
    const [click, setClick] = useState(false);
 
-    const handleClick = () =>{
-        setClick(!false);
+    const handleClickOpen = () =>{
+        setClick(true);
+    }
+
+    const handleClickClose = () =>{
+        setClick(false);
     }
 
     const formStyle = {
@@ -61,7 +65,7 @@ function Header() {
                     <img src={whatsapp} alt="whatsapp"/>
                     <img src={telegram} alt="telegram"/>
                 </div>
-                <button onClick={handleClick} className='pulse'>ჩაეწერეთ ექსკურსიაზე</button>
+                <button onClick={handleClickOpen} className='pulse'>ჩაეწერეთ ექსკურსიაზე</button>
             </div>
 
             <form style={formStyle} action="" className="header-form">                
@@ -79,7 +83,7 @@ function Header() {
                         <label htmlFor="remember">ვეთანხმები მომხმარებელთა უსაფრთხოების პირობებს</label>
                     </div>
                     <button type="submit">ჩაწერა</button>
-                    <div className='header-close'>
+                    <div onClick={handleClickClose} className='header-close'>
                         <img src={close} alt="close" />
                     </div>                
             </form>
