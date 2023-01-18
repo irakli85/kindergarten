@@ -193,13 +193,20 @@ header button{
     display: flex !important;
 }
 
+.header-close{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
 /* MAIN */
 main{
     width: 100%;
     margin: 0 auto;
     margin-top: 50px;    
 }
-.main-form{
+.header-form{
     display: none;
     /* display: flex; */
     width: 384px;
@@ -208,30 +215,33 @@ main{
     border-radius: 20px;    
     flex-direction: column;
     padding: 50px 38px 59px;
+    position: absolute;
+    top: 20vh;
+    right: 1vh;
 }
 
-.main-form h2{
+.header-form h2{
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
     color: var(--white);
 }
 
-.main-form p{    
+.header-form p{    
     font-weight: 600;
     font-size: 14px;
     color: var(--white);
     margin-top: 9px;
 }
 
-.main-form-input{
+.header-form-input{
     margin-top: 33px;
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-.main-form-input input{
+.header-form-input input{
     width: 308px;
     height: 40px;
     background: var(--white);
@@ -243,12 +253,12 @@ main{
     padding: 20px;
 }
 
-.main-form-checkbox{
+.header-form-checkbox{
     display: flex;
     margin-top: 24px;
 }
 
-.main-form-checkbox label{
+.header-form-checkbox label{
     width: 171px;
     font-weight: 600;
     font-size: 10px;
@@ -281,7 +291,7 @@ main{
     background-color: var(--red);
 }
 
-.main-form button{
+.header-form button{
     margin-top: 29px;
     width: 308px;
     height: 40px;
