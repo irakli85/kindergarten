@@ -54,12 +54,21 @@ body{
     background-image: url('./assets/homePage/ornament8.png'),
                       url('./assets/homePage/ornament7.png'),
                       url('./assets/homePage/ornament6.png'),
-                      url('./assets/homePage/ornament12.png');
-    background-repeat: no-repeat, no-repeat, repeat-x, no-repeat;
+                      url('./assets/homePage/ornament12.png'),
+                      url('./assets/homePage/yellowOrnamemt14.png'),
+                      url('./assets/homePage/yellowOrnament15.png'),
+                      url('./assets/homePage/yellowOrnament16.png'),
+                      url('./assets/homePage/bg1.png');
+    background-repeat: no-repeat, no-repeat, repeat-x, no-repeat,
+                       no-repeat, no-repeat, no-repeat, repeat-x;
     background-position: top 860px left 0,
                          top 2800px left 0,
                          top 2670px left 0,
-                         bottom 0 right 0;
+                         bottom 0 right 0,
+                         top 1675px left 0,
+                         top 2280px right 0,
+                         top 6750px left -100px,
+                         bottom 0 left 0;
     overflow-x: hidden;                     
 }
 
@@ -908,7 +917,11 @@ video{
 .detail-info-socials{
     display: flex;
     gap: 15px;
-    margin-top: 43px;
+    margin-top: 43px;    
+}
+
+.detail-info-socials img{
+    cursor: pointer;
 }
 
 .staff-detail-info-content-text1{
@@ -1134,7 +1147,7 @@ video{
 /* FOOTER */
 
 footer{
-    margin-top: 67px;
+    margin-top: 67px;    
 }
 
 .footer-main{
