@@ -133,8 +133,7 @@ nav p{
 }
 
 .nav-dropdown:hover::before{
-    content: url('./assets/homePage/arrowDown2.png');
-    
+    content: url('./assets/homePage/arrowDown2.png');    
 }
 
 nav p:hover{
@@ -201,6 +200,10 @@ header button{
     font-weight: 600;
     font-size: 16px;
     color: var(--white);
+}
+
+.header-dropdown-nav a:hover{
+    color: var(--yellow);
 }
 
 .nav-dropdown:hover+.header-dropdown-nav{
