@@ -767,6 +767,7 @@ video{
 
 .staff-gallery-items img{
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .staff-line1{
@@ -841,7 +842,7 @@ video{
 
 .detail-info-content{
     width: 844px;
-    height: 800px;
+    height: 729px;
 }
 
 .detail-info-header{
@@ -878,7 +879,7 @@ video{
 .avatar-info-text1{
     font-size: 32px;
     color: var(--btnBg);
-    margin-top: 82px;
+    margin-top: 35px;
 }
 
 .avatar-info-text2{
@@ -908,6 +909,35 @@ video{
     display: flex;
     gap: 15px;
     margin-top: 43px;
+}
+
+.staff-detail-info-content-text1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--textBlue);
+    margin: 24px 10% 0 10%;
+}
+
+.staff-detail-info-content-text2{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--red);
+    margin: 21px 10% 0 10%;
+    line-height: 20px;
+}
+
+.detail-main-info ul{
+    margin: 21px 10% 0 10%;
+    padding-bottom: 96px;
+}
+
+.detail-main-info ul>li{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 25px;
+    color: var(--textBlue);
 }
 
 

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import avatar from '../assets/homePage/avatar.png'
 import avatar1 from '../assets/homePage/avatar1.png'
 import x from '../assets/homePage/x.png'
@@ -17,6 +17,21 @@ function Staff() {
     AOS.init({duration: 2000})
   }, []);
 
+  const [staffDetail, setStaffDetail] = useState(false);
+
+  const handleDetailOpen = () => {
+    setStaffDetail(true);
+  };
+
+  const handleDetailClose = () => {
+    setStaffDetail(false)
+  };
+
+  const detailStyle = {
+    display: staffDetail ? 'flex' : 'none'
+  };
+
+ 
   return (
     <>
       <section className="staff" data-aos='fade-up'>
@@ -27,28 +42,28 @@ function Staff() {
             </div>
             <div className='staff-gallery'>
                 <div className='staff-gallery-items'>
-                    <img src={avatar} alt="avatar"/>
+                    <img onClick={handleDetailOpen} src={avatar} alt="avatar"/>
                     <span className='staff-line1'>შანიძე</span>
                     <span className='staff-line2'>მზექალა</span>
                     <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
                     <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
                 <div className='staff-gallery-items'>
-                    <img src={avatar1} alt="avatar"/>
+                    <img onClick={handleDetailOpen} src={avatar1} alt="avatar"/>
                     <span className='staff-line1'>შანიძე</span>
                     <span className='staff-line2'>მზექალა</span>
                     <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
                     <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
                 <div className='staff-gallery-items'>
-                    <img src={avatar} alt="avatar"/>
+                    <img onClick={handleDetailOpen} src={avatar} alt="avatar"/>
                     <span className='staff-line1'>შანიძე</span>
                     <span className='staff-line2'>მზექალა</span>
                     <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
                     <span className='staff-line4'>სტაჟი 11 წელი</span>
                 </div>
                 <div className='staff-gallery-items staff-item4'>
-                    <img src={avatar1} alt="avatar"/>
+                    <img onClick={handleDetailOpen} src={avatar1} alt="avatar"/>
                     <span className='staff-line1'>შანიძე</span>
                     <span className='staff-line2'>მზექალა</span>
                     <span className='staff-line3'>პედაგოგი - ბავშვთა ფსიქოლოგი</span>
@@ -63,18 +78,19 @@ function Staff() {
 
 
 
-      <div className='staff-detail-info'>
+      <div className='staff-detail-info' style={detailStyle}>
 
         <div className='detail-info-content'>
 
           <div className='detail-info-header'>
-            <h3>Подробнее о педагоге</h3>
+            <h3>პედადოგი</h3>
             <div>
-              <img src={x} alt="close" />
+              <img onClick={handleDetailClose} src={x} alt="close" />
             </div>
           </div>
 
           <div className='detail-main-info'>
+
             <div className='detail-avatar-info'>
 
               <div>
@@ -83,11 +99,11 @@ function Staff() {
 
               <div className='avatar-info-text'>
 
-                <p className='avatar-info-text1'>Руководитель kids story</p>
-                <p className='avatar-info-text2'>Журавлев</p>
-                <p className='avatar-info-text3'>Дмитрий Анатольевич</p>
-                <p className='avatar-info-text4'>Педагог - психолог</p>
-                <p className='avatar-info-text5'>Стаж 11 лет</p>
+                <p className='avatar-info-text1'>პედაგოგი</p>
+                <p className='avatar-info-text2'>შანიძე</p>
+                <p className='avatar-info-text3'>მზექალა</p>
+                <p className='avatar-info-text4'>პედაგოგი-ფსიქოლოგი</p>
+                <p className='avatar-info-text5'>სტაჟი 11 წელი</p>
 
                 <div className='detail-info-socials'>
                   <img src={bluefacebook} alt="facebook" />
@@ -98,16 +114,17 @@ function Staff() {
               </div>
 
             </div>
-              <p>Мы создали пространство, в котором каждый ребёнок проявляет и раскрывает себя, развивает индивидуальные особенности и таланты.
+
+              <p className='staff-detail-info-content-text1'>ჩვენ შევქმენით სივრცე, სადაც თითოეული ბავშვს აქვს შესაძლებლობა გამოავლინოს და განავითაროს ინდივიდუალური შესაძლებლობები და ტალანტები.
               </p>
-              <p>Наша задача — сделать так, чтобы каждый день в Kids story был счастливым.
+              <p className='staff-detail-info-content-text2'>ჩვენი ამოცანაა - თითოეული ბავშვისთვის ბაღში გატარებული ყველა დღე იყოს კომფორტული და ბედნიერი.
               </p>
               <ul>
-                <li>Английский детский клуб. Для детей с 2 до 7 лет. Погружение в языковую среду, собственная кухня, охраняемая огороженная территория, медицинский кабинет, соляная пещера.</li>
+                <li>ინგლისურენოვანი საბავშვო კლუბი 2-დან 7 წლამდე ბავშვებისთვის. დაცული და იზოლირებული გარემო, საკუთარი სამზარეულო, სამედიცინო ოთახი</li>
                 <li>
-                Дополнительные услуги. Для детей с 2 до 18 лет. Развивающие студии, творческие мастерские, спортивные секции.
+                2-დან 12 წლამდე ბავშვებისთვის დამატებითი სერვისები. სტუდია ბავშვის დამატებითი განვითარებისთვის, შემოქმედებითი წრეები, სპორტის სექციები
                 </li>
-                <li>Kids story - «ежедневное развитие детей на 360 градусов».</li>
+                <li>Taati - თქვენი ბავშვის ყოველღიური განვითარება</li>
               </ul>
             </div>
         </div>
