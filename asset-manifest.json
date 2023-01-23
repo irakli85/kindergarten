@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kindergarten/static/css/main.6260eb17.css",
+    "main.css": "/kindergarten/static/css/main.0aadc74b.css",
     "main.js": "/kindergarten/static/js/main.350001bb.js",
     "static/media/video.mp4": "/kindergarten/static/media/video.4e510891b2e52c75eada.mp4",
     "static/media/painting.png": "/kindergarten/static/media/painting.56fceb82fe77138dbb71.png",
@@ -14,10 +14,12 @@
     "static/media/poster1.png": "/kindergarten/static/media/poster1.3c22996112368dc37589.png",
     "static/media/poster3.png": "/kindergarten/static/media/poster3.d8df04535dea3dcd772e.png",
     "static/media/poster2.png": "/kindergarten/static/media/poster2.fbe7301148768b4e6f44.png",
+    "static/media/yellowOrnament16.png": "/kindergarten/static/media/yellowOrnament16.e201db5cb260a20d0ad0.png",
     "static/media/ornament1.png": "/kindergarten/static/media/ornament1.de08f717efecec83b5e5.png",
     "static/media/ornament.png": "/kindergarten/static/media/ornament.c1ec6bd4ac479a4b5246.png",
     "static/media/Taati.png": "/kindergarten/static/media/Taati.7e292c44d66ab8d05d1f.png",
     "static/media/ornament6.png": "/kindergarten/static/media/ornament6.0724d09786e24de701ea.png",
+    "static/media/yellowOrnament15.png": "/kindergarten/static/media/yellowOrnament15.caff1faaa896ca21ec4b.png",
     "static/media/blueWhatsapp.svg": "/kindergarten/static/media/blueWhatsapp.19e22e43d59d3531bff84232e79f3a42.svg",
     "static/media/blueFacebook.svg": "/kindergarten/static/media/blueFacebook.e5625fc7e920b2af7591760557788074.svg",
     "static/media/arrowdown1.svg": "/kindergarten/static/media/arrowdown1.d4667f8f1fa6add67fe23a256aa0b086.svg",
@@ -27,11 +29,11 @@
     "static/media/telegram.svg": "/kindergarten/static/media/telegram.7f7add450945d8ee3226eed48fdcc302.svg",
     "static/media/facebook.svg": "/kindergarten/static/media/facebook.8c61e85730760b9df910e78f7421dffe.svg",
     "static/media/close.svg": "/kindergarten/static/media/close.6305bda18ecc8f2d2615a2c1e22ebdc8.svg",
-    "main.6260eb17.css.map": "/kindergarten/static/css/main.6260eb17.css.map",
+    "main.0aadc74b.css.map": "/kindergarten/static/css/main.0aadc74b.css.map",
     "main.350001bb.js.map": "/kindergarten/static/js/main.350001bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6260eb17.css",
+    "static/css/main.0aadc74b.css",
     "static/js/main.350001bb.js"
   ]
 }
