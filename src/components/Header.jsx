@@ -67,6 +67,10 @@ function Header() {
                     <img src={telegram} alt="telegram"/>
                     <img src={fb} alt="facebook"/>
                 </div>
+                <div className='header-burgermenu' >
+                    <div></div>
+                    <div></div>
+                </div>
                 <button onClick={handleClickOpen} className='pulse'></button>
             </div>
 
@@ -101,7 +105,7 @@ function Header() {
             </div>
 
         </header>
-        
+        <button className='header-mobile-btn' onClick={handleClickOpen}></button>
     </>
   )
 }

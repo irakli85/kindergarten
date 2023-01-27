@@ -1324,5 +1324,69 @@ footer{
     }
 }
 
+@media screen and (max-width: 420px){
+    .header-img img {
+        width: 130px;
+        height: 60px;
+    }
+
+    .header nav,
+    .pulse{
+        display: none;
+    }
+
+    .header-social{
+        display: flex;
+    }
+
+    .header-burgermenu{
+        width: 30px;
+        height: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .header-burgermenu > div{
+        width: 28px;
+        height: 8px;
+        background-color: var(--btnBg);
+    }
+
+    .header-mobile-btn{
+        position: relative;
+        width: 280px;
+        height: 40px;
+        background: var(--red);
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 12px;
+        color: var(--white);
+        cursor: pointer;
+        margin-top: 23px;
+    }
+    
+    .header-mobile-btn::before{
+        content: 'ჩაეწერეთ ექსკურსიაზე';
+        position: absolute;   
+        display: block;
+        top: 10px;
+        left: 25%;
+    }
+    
+    
+    .header-mobile-btn:hover, 
+    .header-mobile-btn:focus {
+      animation: mobilebtn 1s;
+      box-shadow: 0 0 0 2em transparent;
+    }
+    
+    @keyframes mobilebtn {
+      0% { box-shadow: 0 0 0 0 var(--red); }
+    }
+
+}
+
 
 
