@@ -1299,18 +1299,4 @@ footer{
     }
 } 
 
-@media screen and (min-width: 1150px){
-    .header{
-        width: 110vw;
-    }
-}
 
-@media screen and (min-width: 950px){
-    .header{
-        width: 120vw;
-    }
-}
-
-@media screen and (min-width: 880px){
-
-}
