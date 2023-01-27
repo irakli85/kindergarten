@@ -1325,6 +1325,8 @@ footer{
 }
 
 @media screen and (max-width: 420px){
+
+    /* HEADER */
     .header-img img {
         width: 130px;
         height: 60px;
@@ -1386,6 +1388,10 @@ footer{
       0% { box-shadow: 0 0 0 0 var(--red); }
     }
 
+    /* MAIN */
+    .main-info{
+        background-image: url('');
+    }
 }
 
 
