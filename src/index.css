@@ -163,7 +163,8 @@ nav p:hover{
     cursor: pointer;
 }
 
-header button{
+.pulse{
+    position: relative;
     width: 192px;
     height: 40px;
     background: var(--btnBg);
@@ -173,6 +174,15 @@ header button{
     color: var(--white);
     margin-left: 5px;
 }
+
+.pulse::before{
+    content: 'ჩაეწერეთ ექსკურსიაზე';
+    position: absolute;   
+    display: block;
+    top: 10px;
+    left: 25px;
+}
+
 
 .pulse:hover, 
 .pulse:focus {
@@ -1302,6 +1312,15 @@ footer{
 @media screen and (max-width: 1256px){
     .footitem{
         display: none;
+    }
+
+    .pulse::before{
+        content: 'ექსკურსია';
+        left: 20px;
+    }
+
+    .pulse{
+        width: 100px;
     }
 }
 

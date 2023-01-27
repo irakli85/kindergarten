@@ -67,7 +67,7 @@ function Header() {
                     <img src={telegram} alt="telegram"/>
                     <img src={fb} alt="facebook"/>
                 </div>
-                <button onClick={handleClickOpen} className='pulse'>ჩაეწერეთ ექსკურსიაზე</button>
+                <button onClick={handleClickOpen} className='pulse'></button>
             </div>
 
             <form style={formStyle} action="" className="header-form">                
