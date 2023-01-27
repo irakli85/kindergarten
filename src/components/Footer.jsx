@@ -59,13 +59,13 @@ function Footer() {
                             <a href="/">ჯგუფი (5-7 წელი)</a>
                         </div>
                     </div>
-                    <div className='footer-nav-items'>
+                    <div className='footer-nav-items footitem'>
                         <h3>ფოტო და ვიდეო</h3>
                     </div>
-                    <div className='footer-nav-items'>
+                    <div className='footer-nav-items footitem'>
                         <h3>ჩვენი გუნდი</h3>
                     </div>
-                    <div className='footer-nav-items'>
+                    <div className='footer-nav-items footitem'>
                         <h3>კონტაქტი</h3>
                     </div>
                 </div>

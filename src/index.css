@@ -93,8 +93,8 @@ header{
     align-items: center;
     justify-content: space-evenly;
     background: #fff;    
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     opacity: 0.9;
 }
 
@@ -1298,5 +1298,12 @@ footer{
         gap: 40px;
     }
 } 
+
+@media screen and (max-width: 1256px){
+    .footitem{
+        display: none;
+    }
+}
+
 
 
