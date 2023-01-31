@@ -80,6 +80,10 @@ body{
     position: relative;
 }
 
+.main-form{
+    display: none;
+}
+
 /* HEADER */
 
 header{
