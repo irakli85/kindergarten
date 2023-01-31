@@ -534,6 +534,10 @@ main{
     color: var(--textBlue);
 }
 
+.consultation-btn1{
+    display: none;
+}
+
 .consultation-btn:hover, 
 .consultation-btn:focus {
   animation: pulse1 1s;
@@ -1536,7 +1540,70 @@ footer{
 }
 
 /* CONSULTATION */
+.consultation{
+    margin-top: 37px;
+    height: 571px;
+    width: 93.5%;
+    position: relative;
+}
 
+.consultation::before{
+    content: url("./assets/homePageMobile/boy1.png");
+    position: absolute;
+    bottom: -7px;
+    left: 90px;
+    z-index: 1;
+}
+
+.consultation::after{
+    content: url("./assets/homePageMobile/ornament.png");
+    position: absolute;
+    bottom: -160px;
+    left: 0;
+}
+.consultation-ornament,
+.consultation-boy{
+    display: none;
+    
+}
+
+.consultation h3{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 33px;
+}
+
+.consultation p{
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 11px;
+}
+
+.consultation form{
+    margin-top: 17px;
+}
+
+.consultation-input input{
+    width: 245px;
+}
+
+.consultation-btn{
+    display: none;
+}
+
+.consultation-btn1{
+    display: block;
+    margin-top: 11px;
+    width: 245px;
+    height: 40px;
+    border-radius: 50px;
+    background: var(--yellow);
+
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--textBlue);
+}
 
 }
 

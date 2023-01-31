@@ -25,6 +25,7 @@ function Consultation() {
                     </div>
                     <label htmlFor="terms">ვეთანხმები მომხმარებელთა უსაფრთხოების პირობებს</label>
                 </div>
+                <button className='consultation-btn1'>გაგზავნა</button>
             </form>
             <img className='consultation-ornament' src={ornament} alt='ornament'/>
             <img className='consultation-boy' src={boy} alt='ornament'/>
