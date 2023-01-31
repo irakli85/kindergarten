@@ -1389,9 +1389,135 @@ footer{
     }
 
     /* MAIN */
-    .main-info{
-        background-image: url('');
-    }
+    
+.main-info{
+    background-image: url('./assets/homePageMobile/mobileBG.png');
+    border-radius: 20px;
+    position: relative;
+    padding-top: 110px;
+}
+
+.main-arrows{
+    width: 80%;
+    position: absolute;
+    top: 24px;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.main-info h1{
+    font-size: 40px;
+}
+
+.main-info p{
+    font-size: 14px;
+    line-height: 0;
+}
+
+/* ---------- */
+.main-form{
+    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    height: 435px;
+    background: var(--btnBg);
+    border-radius: 20px;    
+    flex-direction: column;
+    padding: 50px 38px 59px;
+}
+
+.main-form h2{    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--white);
+}
+
+.main-form p{    
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--white);
+    margin-top: 11px;
+}
+
+.main-form-input{
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.main-form-input input{
+    width: 245px;
+    height: 40px;
+    background: var(--white);
+    border-radius: 50px;
+
+    font-weight: 600;
+    font-size: 10px;
+    color: var(--textBlue);
+    padding: 20px;
+}
+
+.main-form-checkbox{
+    display: flex;
+    margin-top: 11px;
+}
+
+.main-form-checkbox label{
+    width: 171px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: var(--white);
+    margin-left: 13px
+}
+
+.checkbox-wrap{
+    width: 20px;
+    height: 20px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-checkbox{
+    width: 12px;
+    height: 12px;   
+    background-color: var(--white);
+    border-radius: 50%;    
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+#main-checkbox:checked{
+    background-color: var(--red);
+}
+
+.main-form button{
+    margin-top: 29px;
+    width: 245px;
+    height: 60px;
+    background: var(--red);
+    border-radius: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.bounce{
+    display: none;
+}
+
+
+
 }
 
 

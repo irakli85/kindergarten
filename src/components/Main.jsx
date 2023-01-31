@@ -23,6 +23,23 @@ function Main() {
                     <img className='bounce' src={arrowDown} alt="scroll arrow" />
                 </div>
             </div>
+            <form action="" className="main-form">                
+                    <h2>ჩაეწერეთ პერსონალურ ექსკურსიაზე</h2>
+                    <p>შეავსეთ ფორმა და დაათვალიერეთ ბაღი თქვენთვის სასურველ დროს</p>
+                    <div className='main-form-input'>
+                        <input type="text" name="" id="" placeholder="თქვენი სახელი"/>
+                        <input type="number" name="" id="" placeholder="+ 995 _  _  _  -  _  _  _  -  _  _  _"/>
+                        <input type="email" name="" id="" placeholder="თქვენი e-mail"/>
+                    </div>
+                    <div className='main-form-checkbox'>
+                        <div className='checkbox-wrap'>
+                            <input type="checkbox" name="main-checkbox" id="main-checkbox"/>
+                         </div>   
+                        <label htmlFor="main-checkbox">ვეთანხმები მომხმარებელთა უსაფრთხოების პირობებს</label>
+                    </div>
+                    <button type="submit">ჩაწერა</button>
+                                 
+            </form>
         </main>
     </>
   )
