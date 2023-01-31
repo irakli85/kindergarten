@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kindergarten/static/css/main.7526fc06.css",
-    "main.js": "/kindergarten/static/js/main.5dcb41ec.js",
+    "main.css": "/kindergarten/static/css/main.b8574017.css",
+    "main.js": "/kindergarten/static/js/main.d4dd10c5.js",
     "static/media/video.mp4": "/kindergarten/static/media/video.4e510891b2e52c75eada.mp4",
     "static/media/painting.png": "/kindergarten/static/media/painting.56fceb82fe77138dbb71.png",
     "static/media/blueInsta.svg": "/kindergarten/static/media/blueInsta.ac91146ec98974700716aebe69f7bb95.svg",
@@ -9,6 +9,7 @@
     "static/media/font-bold.woff2": "/kindergarten/static/media/font-bold.a52c0783881943e87fd5.woff2",
     "static/media/avatar2.png": "/kindergarten/static/media/avatar2.8b07a781942bdc796a1b.png",
     "static/media/boy1.png": "/kindergarten/static/media/boy1.b12d2b668d037b527141.png",
+    "static/media/mobileBG.png": "/kindergarten/static/media/mobileBG.1c63b96c4c49dc8ee70f.png",
     "static/media/avatar.png": "/kindergarten/static/media/avatar.563fe0f6edd28b3b23a9.png",
     "static/media/avatar1.png": "/kindergarten/static/media/avatar1.fe77fba3798586b0e157.png",
     "static/media/poster1.png": "/kindergarten/static/media/poster1.3c22996112368dc37589.png",
@@ -29,11 +30,11 @@
     "static/media/telegram.svg": "/kindergarten/static/media/telegram.7f7add450945d8ee3226eed48fdcc302.svg",
     "static/media/facebook.svg": "/kindergarten/static/media/facebook.8c61e85730760b9df910e78f7421dffe.svg",
     "static/media/close.svg": "/kindergarten/static/media/close.6305bda18ecc8f2d2615a2c1e22ebdc8.svg",
-    "main.7526fc06.css.map": "/kindergarten/static/css/main.7526fc06.css.map",
-    "main.5dcb41ec.js.map": "/kindergarten/static/js/main.5dcb41ec.js.map"
+    "main.b8574017.css.map": "/kindergarten/static/css/main.b8574017.css.map",
+    "main.d4dd10c5.js.map": "/kindergarten/static/js/main.d4dd10c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7526fc06.css",
-    "static/js/main.5dcb41ec.js"
+    "static/css/main.b8574017.css",
+    "static/js/main.d4dd10c5.js"
   ]
 }
