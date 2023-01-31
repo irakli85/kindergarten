@@ -1418,7 +1418,7 @@ footer{
     line-height: 0;
 }
 
-/* ---------- */
+
 .main-form{
     margin-top: 24px;
     display: flex;
@@ -1520,6 +1520,22 @@ footer{
     display: none;
 }
 
+/* INFO */
+
+.information{
+    padding-left: 0;
+    justify-content: center;
+}
+.info-item{
+    flex-direction: column;
+    align-items: center;
+}
+.info-item p{
+    font-size: 10px;
+    line-height: 13px;
+}
+
+/* CONSULTATION */
 
 
 }
