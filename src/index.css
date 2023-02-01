@@ -1044,6 +1044,10 @@ video{
 /* SECTION FEEDBACK */
 
 .feedback{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
     margin-top: 99px;
     height: 569px;
     background-color: var(--lightBlueBG);
@@ -1720,6 +1724,24 @@ video{
 }
 
 .poster{
+    display: none;
+}
+
+/* FEEDBACK MOBILE */
+.feedback{
+    height: 610px;
+}
+
+.feedback-item2, .feedback-arrow{
+    display: none;
+}
+
+.feedback h3{
+    margin-left: 0;
+}
+
+/* FOOTER MOBILE */
+.footer-nav{
     display: none;
 }
 }

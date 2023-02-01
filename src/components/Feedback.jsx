@@ -37,7 +37,7 @@ useEffect( () => {
                   <p className='feedback-read'>ნახვა</p>
               </div>
 
-              <div className='feedback-info-items'>
+              <div className='feedback-info-items feedback-item2'>
                   <div className='feedback-info-items-mainbox'>
                       <div className='feedback-user'>
                           <div>
