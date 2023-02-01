@@ -1027,6 +1027,7 @@ video{
     font-size: 20px;
     line-height: 24px;
     color: var(--textBlue);
+    margin-left: 20px;
 }
 
 /* POSTER */
@@ -1605,6 +1606,122 @@ footer{
     color: var(--textBlue);
 }
 
+/* services MOBILE */
+
+.services h2{
+    font-size: 24px;
+}
+
+.services-container{
+    gap: 19px;
+}
+
+.services-rows{
+    flex-direction: column;
+}
+
+/* VIDEOTEKA MOBILE */
+.videoteka h2{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.videoteka p{
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 280px;
+    margin-top: 10px;
+}
+
+.videoteka div{
+    margin-top: 1px;
+    justify-content: flex-start;
+}
+
+video{
+    max-width: 280px;
+    height: 231px;
+    border-radius: 10px;
+}
+
+.video2,
+.video3{
+    display: none;
+}
+
+/* ADVENTAGES MOBILE */
+.advantages{
+    margin-top: 56px;
+}
+.advantages h3{
+    font-size: 24px;    
+}
+
+.advantages-info{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.advantages-cards{
+    margin-top: 39px;
+}
+
+.advantages-card-items{
+    flex-direction: column;
+}
+
+.advantages-card-items p{
+    font-size: 10px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* STAFF MOBILE */
+
+.staff{
+    margin-top: 42px;
+}
+
+.staff h3{
+    font-size: 24px;
+}
+
+.staff-box{
+    margin-top: 23px;
+}
+
+.staff-item2,
+.staff-item3,
+.staff-arrow{
+    display: none;
+}
+
+/* ABOUT US */
+.aboutus{
+    margin-top: 42px;
+}
+
+.aboutus h3{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.aboutus-text1,
+.aboutus-text2{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.aboutus li{
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.poster{
+    display: none;
+}
 }
 
 
